@@ -1,0 +1,454 @@
+2025-09-30 16:36:30,008 | INFO | moodboard: CLIP flags: USE_CLIP=True, MODEL=ViT-B-32, DEVICE=cpu
+2025-09-30 16:36:30,008 | INFO | moodboard: Startup: PINTEREST_BASE_URL=https://api-sandbox.pinterest.com
+2025-09-30 16:36:30,008 | INFO | moodboard: Apify enabled? True | actor=apify/web-scraper | token=SET
+2025-09-30 16:45:02,761 | INFO | moodboard: CLIP flags: USE_CLIP=True, MODEL=ViT-B-32, DEVICE=cpu
+2025-09-30 16:45:02,762 | INFO | moodboard: Startup: PINTEREST_BASE_URL=https://api-sandbox.pinterest.com
+2025-09-30 16:45:02,762 | INFO | moodboard: Apify enabled? True | actor=apify/web-scraper | token=SET
+2025-09-30 16:45:07,640 | INFO | moodboard: CLIP flags: USE_CLIP=True, MODEL=ViT-B-32, DEVICE=cpu
+2025-09-30 16:45:07,640 | INFO | moodboard: Startup: PINTEREST_BASE_URL=https://api-sandbox.pinterest.com
+2025-09-30 16:45:07,640 | INFO | moodboard: Apify enabled? True | actor=apify/web-scraper | token=SET
+2025-09-30 16:45:09,082 | INFO | moodboard: [EncodingCheck] q0='??????????????? ???????? ???????? ? ??????????? ???????, ??????, ?????, ????, ??? ????? ? ??? ??????' | bytes=b'??????????????? ???????? ???????? ? ??????????? ???????, ??????, ?????, ????, ??? ????? ? ??? ??????' | codepoints=[63, 63, 63, 63, 63, 63, 63, 63, 63, 63, 63, 63, 63, 63, 63, 32, 63, 63, 63, 63, 63, 63, 63, 63, 32, 63, 63, 63, 63, 63, 63, 63, 63, 32, 63, 32, 63, 63, 63, 63]
+2025-09-30 16:45:09,083 | INFO | moodboard: [Pinterest] (serial=True) queries=['??????????????? ???????? ???????? ? ??????????? ???????, ??????, ?????, ????, ??? ????? ? ??? ??????', '??????????????? ???????? ???????? ? ??????????? ???????, ??????, ?????, ????, ??? ????? ? ??? ?????? архитектура', '??????????????? ???????? ???????? ? ??????????? ???????, ??????, ?????, ????, ??? ????? ? ??? ?????? интерьер', '??????????????? ???????? ???????? ? ??????????? ???????, ??????, ?????, ????, ??? ????? ? ??? ?????? материалы', '??????????????? ???????? ???????? ? ??????????? ???????, ??????, ?????, ????, ??? ????? ? ??? ?????? лобби', '??????????????? ???????? ???????? ? ??????????? ??????? ?????? ????? ???? ??? ????? ? ??? ??????', 'scandinavian minimalism lobby travertine', 'stone cladding travertine lobby'] per_query=60 need=216
+2025-09-30 16:45:09,084 | INFO | moodboard: [Cache] loaded 25 cards key=bb4d2a5c55da89b3183a18d68d3fa6fd962dfb35
+2025-09-30 16:45:09,084 | WARNING | moodboard: [CLIP] embedding/similarity failed: cannot import name '_load_openclip' from 'backend.pipeline.embeds' (C:\Users\ivan.kopytin\Downloads\mbcheck-check\mbcheck-check\backend\pipeline\embeds.py)
+2025-09-30 16:53:44,464 | INFO | moodboard: CLIP flags: USE_CLIP=True, MODEL=ViT-B-32, DEVICE=cpu
+2025-09-30 16:53:44,464 | INFO | moodboard: Startup: PINTEREST_BASE_URL=https://api-sandbox.pinterest.com
+2025-09-30 16:53:44,466 | INFO | moodboard: Apify enabled? True | actor=apify/web-scraper | token=SET
+2025-09-30 16:55:48,263 | INFO | moodboard: CLIP flags: USE_CLIP=True, MODEL=ViT-B-32, DEVICE=cpu
+2025-09-30 16:55:48,263 | INFO | moodboard: Startup: PINTEREST_BASE_URL=https://api-sandbox.pinterest.com
+2025-09-30 16:55:48,263 | INFO | moodboard: Apify enabled? True | actor=apify/web-scraper | token=SET
+2025-09-30 16:57:16,656 | INFO | moodboard: CLIP flags: USE_CLIP=True, MODEL=ViT-B-32, DEVICE=cpu
+2025-09-30 16:57:16,656 | INFO | moodboard: Startup: PINTEREST_BASE_URL=https://api-sandbox.pinterest.com
+2025-09-30 16:57:16,656 | INFO | moodboard: Apify enabled? True | actor=apify/web-scraper | token=SET
+2025-09-30 16:57:52,828 | INFO | moodboard: [EncodingCheck] q0='скандинавский минимализм, лобби с травертином, без людей и текста' | bytes=b'\xd1\x81\xd0\xba\xd0\xb0\xd0\xbd\xd0\xb4\xd0\xb8\xd0\xbd\xd0\xb0\xd0\xb2\xd1\x81\xd0\xba\xd0\xb8\xd0\xb9 \xd0\xbc\xd0\xb8\xd0\xbd\xd0\xb8\xd0\xbc\xd0\xb0\xd0\xbb\xd0\xb8\xd0\xb7\xd0\xbc, \xd0\xbb\xd0\xbe\xd0\xb1\xd0\xb1\xd0\xb8 \xd1\x81 \xd1\x82\xd1\x80\xd0\xb0\xd0\xb2\xd0\xb5\xd1\x80\xd1\x82\xd0\xb8\xd0\xbd\xd0\xbe\xd0\xbc, \xd0\xb1\xd0\xb5\xd0\xb7 \xd0\xbb\xd1\x8e\xd0\xb4\xd0\xb5\xd0\xb9 \xd0\xb8 \xd1\x82\xd0\xb5\xd0\xba\xd1\x81\xd1\x82\xd0\xb0' | codepoints=[1089, 1082, 1072, 1085, 1076, 1080, 1085, 1072, 1074, 1089, 1082, 1080, 1081, 32, 1084, 1080, 1085, 1080, 1084, 1072, 1083, 1080, 1079, 1084, 44, 32, 1083, 1086, 1073, 1073, 1080, 32, 1089, 32, 1090, 1088, 1072, 1074, 1077, 1088]
+2025-09-30 16:57:52,829 | INFO | moodboard: [Pinterest] (serial=True) queries=['скандинавский минимализм, лобби с травертином, без людей и текста', 'скандинавский минимализм, лобби с травертином, без людей и текста архитектура', 'скандинавский минимализм, лобби с травертином, без людей и текста интерьер', 'скандинавский минимализм, лобби с травертином, без людей и текста материалы', 'скандинавский минимализм, лобби с травертином, без людей и текста лобби', 'скандинавский минимализм лобби с травертином без людей и текста', 'scandinavian minimalism lobby travertine', 'stone cladding travertine lobby'] per_query=60 need=216
+2025-09-30 16:57:52,858 | INFO | moodboard: [Apify] enabled; actor=apify/web-scraper
+2025-09-30 16:57:52,859 | INFO | moodboard: [Apify] enabled; actor=apify/web-scraper
+2025-09-30 16:57:52,859 | INFO | moodboard: [Apify] call actor=apify/web-scraper q='скандинавский минимализм, лобби с травертином, без людей и текста' limit=60
+2025-09-30 16:58:46,048 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/65/9b/fd/659bfde253adbcd9507bf982f134f23c.png -> file=apify_19140367162328957.jpg
+2025-09-30 16:58:46,374 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/65/9b/fd/659bfde253adbcd9507bf982f134f23c.png "HTTP/1.1 200 OK"
+2025-09-30 16:58:46,610 | INFO | moodboard: [Image] download done file=apify_19140367162328957.jpg size=576x1024 bytes=144149 url=https://i.pinimg.com/originals/65/9b/fd/659bfde253adbcd9507bf982f134f23c.png -> /_cache/images/apify_19140367162328957.jpg
+2025-09-30 16:58:46,938 | WARNING | easyocr.easyocr: Using CPU. Note: This module is much faster with a GPU.
+2025-09-30 16:58:49,753 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/e7/96/a7/e796a77423fec153aa5940dac3eef750.jpg -> file=apify_184999497190100332.jpg
+2025-09-30 16:58:49,780 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/e7/96/a7/e796a77423fec153aa5940dac3eef750.jpg "HTTP/1.1 200 OK"
+2025-09-30 16:58:49,870 | INFO | moodboard: [Image] download done file=apify_184999497190100332.jpg size=571x1024 bytes=146443 url=https://i.pinimg.com/originals/e7/96/a7/e796a77423fec153aa5940dac3eef750.jpg -> /_cache/images/apify_184999497190100332.jpg
+2025-09-30 16:58:51,244 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/80/38/5b/80385b2742a5ef962514dfa67b8ac13b.jpg -> file=apify_319896379801888529.jpg
+2025-09-30 16:58:51,584 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/80/38/5b/80385b2742a5ef962514dfa67b8ac13b.jpg "HTTP/1.1 200 OK"
+2025-09-30 16:58:51,627 | INFO | moodboard: [Image] download done file=apify_319896379801888529.jpg size=1024x1024 bytes=122627 url=https://i.pinimg.com/originals/80/38/5b/80385b2742a5ef962514dfa67b8ac13b.jpg -> /_cache/images/apify_319896379801888529.jpg
+2025-09-30 16:58:54,008 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/3a/01/b9/3a01b9a5109ac663515dc6ec51463bf9.png -> file=apify_319896379801888512.jpg
+2025-09-30 16:58:54,053 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/3a/01/b9/3a01b9a5109ac663515dc6ec51463bf9.png "HTTP/1.1 200 OK"
+2025-09-30 16:58:54,153 | INFO | moodboard: [Image] download done file=apify_319896379801888512.jpg size=573x1024 bytes=87167 url=https://i.pinimg.com/originals/3a/01/b9/3a01b9a5109ac663515dc6ec51463bf9.png -> /_cache/images/apify_319896379801888512.jpg
+2025-09-30 16:58:55,520 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/21/f6/96/21f696a4a9444321f128921d59794d1e.jpg -> file=apify_111041947054846602.jpg
+2025-09-30 16:58:55,796 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/21/f6/96/21f696a4a9444321f128921d59794d1e.jpg "HTTP/1.1 200 OK"
+2025-09-30 16:58:55,879 | INFO | moodboard: [Image] download done file=apify_111041947054846602.jpg size=682x1024 bytes=162021 url=https://i.pinimg.com/originals/21/f6/96/21f696a4a9444321f128921d59794d1e.jpg -> /_cache/images/apify_111041947054846602.jpg
+2025-09-30 16:58:57,540 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/f5/03/83/f503836ae03bd0f46acf0f9e500faf1c.png -> file=apify_518899188339888743.jpg
+2025-09-30 16:58:57,820 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/f5/03/83/f503836ae03bd0f46acf0f9e500faf1c.png "HTTP/1.1 200 OK"
+2025-09-30 16:58:57,992 | INFO | moodboard: [Image] download done file=apify_518899188339888743.jpg size=768x1024 bytes=139050 url=https://i.pinimg.com/originals/f5/03/83/f503836ae03bd0f46acf0f9e500faf1c.png -> /_cache/images/apify_518899188339888743.jpg
+2025-09-30 16:58:59,806 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/ea/5b/ba/ea5bba36b2e3740f9342b0aed72279d5.jpg -> file=apify_540361655315393074.jpg
+2025-09-30 16:58:59,846 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/ea/5b/ba/ea5bba36b2e3740f9342b0aed72279d5.jpg "HTTP/1.1 200 OK"
+2025-09-30 16:58:59,905 | INFO | moodboard: [Image] download done file=apify_540361655315393074.jpg size=819x1024 bytes=131323 url=https://i.pinimg.com/originals/ea/5b/ba/ea5bba36b2e3740f9342b0aed72279d5.jpg -> /_cache/images/apify_540361655315393074.jpg
+2025-09-30 16:59:01,859 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/42/35/1b/42351b247f2651dabe71f1568a627417.jpg -> file=apify_912541943252845256.jpg
+2025-09-30 16:59:01,869 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/42/35/1b/42351b247f2651dabe71f1568a627417.jpg "HTTP/1.1 200 OK"
+2025-09-30 16:59:01,908 | INFO | moodboard: [Image] download done file=apify_912541943252845256.jpg size=768x1024 bytes=115989 url=https://i.pinimg.com/originals/42/35/1b/42351b247f2651dabe71f1568a627417.jpg -> /_cache/images/apify_912541943252845256.jpg
+2025-09-30 16:59:03,688 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/0b/33/d1/0b33d159561190a84d9f7a594b5e7292.jpg -> file=apify_530650768615992338.jpg
+2025-09-30 16:59:03,981 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/0b/33/d1/0b33d159561190a84d9f7a594b5e7292.jpg "HTTP/1.1 200 OK"
+2025-09-30 16:59:04,018 | INFO | moodboard: [Image] download done file=apify_530650768615992338.jpg size=585x1024 bytes=169717 url=https://i.pinimg.com/originals/0b/33/d1/0b33d159561190a84d9f7a594b5e7292.jpg -> /_cache/images/apify_530650768615992338.jpg
+2025-09-30 16:59:05,479 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/6d/e2/7b/6de27b9e464ebdb725594d30937b43d8.jpg -> file=apify_266134659225570324.jpg
+2025-09-30 16:59:05,760 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/6d/e2/7b/6de27b9e464ebdb725594d30937b43d8.jpg "HTTP/1.1 200 OK"
+2025-09-30 16:59:05,810 | INFO | moodboard: [Image] download done file=apify_266134659225570324.jpg size=682x1024 bytes=93462 url=https://i.pinimg.com/originals/6d/e2/7b/6de27b9e464ebdb725594d30937b43d8.jpg -> /_cache/images/apify_266134659225570324.jpg
+2025-09-30 16:59:07,426 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/06/d2/82/06d28286a3f01508d18f256611ea9471.jpg -> file=apify_2603712278560743.jpg
+2025-09-30 16:59:07,677 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/06/d2/82/06d28286a3f01508d18f256611ea9471.jpg "HTTP/1.1 200 OK"
+2025-09-30 16:59:07,721 | INFO | moodboard: [Image] download done file=apify_2603712278560743.jpg size=564x845 bytes=81461 url=https://i.pinimg.com/originals/06/d2/82/06d28286a3f01508d18f256611ea9471.jpg -> /_cache/images/apify_2603712278560743.jpg
+2025-09-30 16:59:08,888 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/12/9c/fb/129cfb09d5793634da5667d4972d5741.jpg -> file=apify_437834395045017014.jpg
+2025-09-30 16:59:09,166 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/12/9c/fb/129cfb09d5793634da5667d4972d5741.jpg "HTTP/1.1 200 OK"
+2025-09-30 16:59:09,247 | INFO | moodboard: [Image] download done file=apify_437834395045017014.jpg size=675x1024 bytes=144986 url=https://i.pinimg.com/originals/12/9c/fb/129cfb09d5793634da5667d4972d5741.jpg -> /_cache/images/apify_437834395045017014.jpg
+2025-09-30 16:59:10,877 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/10/21/ac/1021ac00a507731573838f64cff5423c.jpg -> file=apify_1113022495427388280.jpg
+2025-09-30 16:59:10,917 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/10/21/ac/1021ac00a507731573838f64cff5423c.jpg "HTTP/1.1 200 OK"
+2025-09-30 16:59:10,963 | INFO | moodboard: [Image] download done file=apify_1113022495427388280.jpg size=819x1024 bytes=130844 url=https://i.pinimg.com/originals/10/21/ac/1021ac00a507731573838f64cff5423c.jpg -> /_cache/images/apify_1113022495427388280.jpg
+2025-09-30 16:59:12,914 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/03/3a/f0/033af0f61a49f869e00fe29cf10b28dd.png -> file=apify_681169512426266438.jpg
+2025-09-30 16:59:12,939 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/03/3a/f0/033af0f61a49f869e00fe29cf10b28dd.png "HTTP/1.1 200 OK"
+2025-09-30 16:59:13,001 | INFO | moodboard: [Image] download done file=apify_681169512426266438.jpg size=573x1024 bytes=130815 url=https://i.pinimg.com/originals/03/3a/f0/033af0f61a49f869e00fe29cf10b28dd.png -> /_cache/images/apify_681169512426266438.jpg
+2025-09-30 16:59:13,030 | INFO | moodboard: [Filter] drop apify pin_id=681169512426266438 reasons={'face': True}
+2025-09-30 16:59:13,032 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/28/84/99/28849910897fd397035fb9941d16e98a.jpg -> file=apify_894879388470992646.jpg
+2025-09-30 16:59:13,325 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/28/84/99/28849910897fd397035fb9941d16e98a.jpg "HTTP/1.1 200 OK"
+2025-09-30 16:59:13,384 | INFO | moodboard: [Image] download done file=apify_894879388470992646.jpg size=682x1024 bytes=148715 url=https://i.pinimg.com/originals/28/84/99/28849910897fd397035fb9941d16e98a.jpg -> /_cache/images/apify_894879388470992646.jpg
+2025-09-30 16:59:15,093 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/2c/dc/94/2cdc941d8e8b93a723531982a14401d2.jpg -> file=apify_82894449387581114.jpg
+2025-09-30 16:59:15,364 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/2c/dc/94/2cdc941d8e8b93a723531982a14401d2.jpg "HTTP/1.1 200 OK"
+2025-09-30 16:59:15,447 | INFO | moodboard: [Image] download done file=apify_82894449387581114.jpg size=736x920 bytes=56051 url=https://i.pinimg.com/originals/2c/dc/94/2cdc941d8e8b93a723531982a14401d2.jpg -> /_cache/images/apify_82894449387581114.jpg
+2025-09-30 16:59:17,020 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/37/93/f3/3793f3d8de2bb8577356dfb22ccbc4a9.jpg -> file=apify_681310249926884452.jpg
+2025-09-30 16:59:17,298 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/37/93/f3/3793f3d8de2bb8577356dfb22ccbc4a9.jpg "HTTP/1.1 200 OK"
+2025-09-30 16:59:17,686 | INFO | moodboard: [Image] download done file=apify_681310249926884452.jpg size=768x1024 bytes=150199 url=https://i.pinimg.com/originals/37/93/f3/3793f3d8de2bb8577356dfb22ccbc4a9.jpg -> /_cache/images/apify_681310249926884452.jpg
+2025-09-30 16:59:19,558 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/9d/63/1b/9d631b6e91a89e8b489cdc16559b11c0.jpg -> file=apify_27443878974211904.jpg
+2025-09-30 16:59:19,580 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/9d/63/1b/9d631b6e91a89e8b489cdc16559b11c0.jpg "HTTP/1.1 200 OK"
+2025-09-30 16:59:19,595 | INFO | moodboard: [Image] download done file=apify_27443878974211904.jpg size=720x960 bytes=96257 url=https://i.pinimg.com/originals/9d/63/1b/9d631b6e91a89e8b489cdc16559b11c0.jpg -> /_cache/images/apify_27443878974211904.jpg
+2025-09-30 16:59:19,625 | INFO | moodboard: [Filter] drop apify pin_id=27443878974211904 reasons={'face': True}
+2025-09-30 16:59:19,629 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/01/30/e3/0130e37cfe5c96f895d1ad172385fd0c.jpg -> file=apify_560627853633320020.jpg
+2025-09-30 16:59:19,942 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/01/30/e3/0130e37cfe5c96f895d1ad172385fd0c.jpg "HTTP/1.1 200 OK"
+2025-09-30 16:59:20,233 | INFO | moodboard: [Image] download done file=apify_560627853633320020.jpg size=585x1024 bytes=136424 url=https://i.pinimg.com/originals/01/30/e3/0130e37cfe5c96f895d1ad172385fd0c.jpg -> /_cache/images/apify_560627853633320020.jpg
+2025-09-30 16:59:21,655 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/b8/18/78/b818781434223a81a6f7f2fddddf9b46.jpg -> file=apify_92957179804597575.jpg
+2025-09-30 16:59:22,000 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/b8/18/78/b818781434223a81a6f7f2fddddf9b46.jpg "HTTP/1.1 200 OK"
+2025-09-30 16:59:22,039 | INFO | moodboard: [Image] download done file=apify_92957179804597575.jpg size=731x1024 bytes=118179 url=https://i.pinimg.com/originals/b8/18/78/b818781434223a81a6f7f2fddddf9b46.jpg -> /_cache/images/apify_92957179804597575.jpg
+2025-09-30 16:59:22,070 | INFO | moodboard: [Filter] drop apify pin_id=92957179804597575 reasons={'face': True}
+2025-09-30 16:59:22,071 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/b1/64/52/b16452c9eee2043783f6a90d525db534.png -> file=apify_81698180737026187.jpg
+2025-09-30 16:59:22,394 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/b1/64/52/b16452c9eee2043783f6a90d525db534.png "HTTP/1.1 200 OK"
+2025-09-30 16:59:22,546 | INFO | moodboard: [Image] download done file=apify_81698180737026187.jpg size=576x1024 bytes=118551 url=https://i.pinimg.com/originals/b1/64/52/b16452c9eee2043783f6a90d525db534.png -> /_cache/images/apify_81698180737026187.jpg
+2025-09-30 16:59:22,578 | INFO | moodboard: [Filter] drop apify pin_id=81698180737026187 reasons={'face': True}
+2025-09-30 16:59:22,579 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/47/ba/d3/47bad363fdffa804dc5353205a3907b8.webp -> file=apify_1000221398502553072.jpg
+2025-09-30 16:59:22,602 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/47/ba/d3/47bad363fdffa804dc5353205a3907b8.webp "HTTP/1.1 200 OK"
+2025-09-30 16:59:22,684 | INFO | moodboard: [Image] download done file=apify_1000221398502553072.jpg size=585x1024 bytes=106788 url=https://i.pinimg.com/originals/47/ba/d3/47bad363fdffa804dc5353205a3907b8.webp -> /_cache/images/apify_1000221398502553072.jpg
+2025-09-30 16:59:24,115 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/2b/07/91/2b07919d6b274f2e26c4c69b22cc1868.png -> file=apify_234679830577889596.jpg
+2025-09-30 16:59:24,354 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/2b/07/91/2b07919d6b274f2e26c4c69b22cc1868.png "HTTP/1.1 200 OK"
+2025-09-30 16:59:24,688 | INFO | moodboard: [Image] download done file=apify_234679830577889596.jpg size=573x1024 bytes=129522 url=https://i.pinimg.com/originals/2b/07/91/2b07919d6b274f2e26c4c69b22cc1868.png -> /_cache/images/apify_234679830577889596.jpg
+2025-09-30 16:59:26,533 | INFO | moodboard: [Filter] drop apify pin_id=234679830577889596 reasons={'text': True}
+2025-09-30 16:59:26,533 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/37/9c/3e/379c3e94d509f39ea07602d9eaffeb26.jpg -> file=apify_691935930287577601.jpg
+2025-09-30 16:59:26,554 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/37/9c/3e/379c3e94d509f39ea07602d9eaffeb26.jpg "HTTP/1.1 200 OK"
+2025-09-30 16:59:26,606 | INFO | moodboard: [Image] download done file=apify_691935930287577601.jpg size=675x1024 bytes=144153 url=https://i.pinimg.com/originals/37/9c/3e/379c3e94d509f39ea07602d9eaffeb26.jpg -> /_cache/images/apify_691935930287577601.jpg
+2025-09-30 16:59:28,266 | INFO | moodboard: [FilterStats:apify] q='скандинавский минимализм, лобби с травертином, без людей и текста' total=24 ok=19 lowres=0 aspect=0 face=4 text=1
+2025-09-30 16:59:28,266 | INFO | moodboard: [Apify] parsed 19 cards for q='скандинавский минимализм, лобби с травертином, без людей и текста'
+2025-09-30 16:59:28,266 | INFO | moodboard: [Apify] got 19 cards for q='скандинавский минимализм, лобби с травертином, без людей и текста'
+2025-09-30 16:59:28,269 | INFO | moodboard: [Apify] enabled; actor=apify/web-scraper
+2025-09-30 16:59:28,271 | INFO | moodboard: [Apify] enabled; actor=apify/web-scraper
+2025-09-30 16:59:28,271 | INFO | moodboard: [Apify] call actor=apify/web-scraper q='скандинавский минимализм, лобби с травертином, без людей и текста архитектура' limit=60
+2025-09-30 17:00:01,732 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/90/aa/13/90aa13731b14f3e07043458b5f7925d4.png -> file=apify_389491067792588704.jpg
+2025-09-30 17:00:02,688 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/90/aa/13/90aa13731b14f3e07043458b5f7925d4.png "HTTP/1.1 200 OK"
+2025-09-30 17:00:02,905 | INFO | moodboard: [Image] download done file=apify_389491067792588704.jpg size=1024x585 bytes=131708 url=https://i.pinimg.com/originals/90/aa/13/90aa13731b14f3e07043458b5f7925d4.png -> /_cache/images/apify_389491067792588704.jpg
+2025-09-30 17:00:04,351 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/47/cf/08/47cf088a5ba112812c502a00008f5261.jpg -> file=apify_424745808622925746.jpg
+2025-09-30 17:00:04,536 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/47/cf/08/47cf088a5ba112812c502a00008f5261.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:00:04,542 | INFO | moodboard: [Image] download done file=apify_424745808622925746.jpg size=600x667 bytes=30065 url=https://i.pinimg.com/originals/47/cf/08/47cf088a5ba112812c502a00008f5261.jpg -> /_cache/images/apify_424745808622925746.jpg
+2025-09-30 17:00:05,502 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/af/e6/e9/afe6e9146341ed1fc92799083ec6e083.png -> file=apify_23432860625276079.jpg
+2025-09-30 17:00:05,968 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/af/e6/e9/afe6e9146341ed1fc92799083ec6e083.png "HTTP/1.1 200 OK"
+2025-09-30 17:00:06,041 | INFO | moodboard: [Image] download done file=apify_23432860625276079.jpg size=819x1024 bytes=117229 url=https://i.pinimg.com/originals/af/e6/e9/afe6e9146341ed1fc92799083ec6e083.png -> /_cache/images/apify_23432860625276079.jpg
+2025-09-30 17:00:07,991 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/e7/96/a7/e796a77423fec153aa5940dac3eef750.jpg -> file=apify_184999497190100332.jpg
+2025-09-30 17:00:08,019 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/e7/96/a7/e796a77423fec153aa5940dac3eef750.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:00:08,103 | INFO | moodboard: [Image] download done file=apify_184999497190100332.jpg size=571x1024 bytes=146443 url=https://i.pinimg.com/originals/e7/96/a7/e796a77423fec153aa5940dac3eef750.jpg -> /_cache/images/apify_184999497190100332.jpg
+2025-09-30 17:00:09,475 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/80/38/5b/80385b2742a5ef962514dfa67b8ac13b.jpg -> file=apify_319896379801888529.jpg
+2025-09-30 17:00:09,531 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/80/38/5b/80385b2742a5ef962514dfa67b8ac13b.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:00:09,591 | INFO | moodboard: [Image] download done file=apify_319896379801888529.jpg size=1024x1024 bytes=122627 url=https://i.pinimg.com/originals/80/38/5b/80385b2742a5ef962514dfa67b8ac13b.jpg -> /_cache/images/apify_319896379801888529.jpg
+2025-09-30 17:00:11,969 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/98/bb/1a/98bb1ad9039210d6412718db87a504b6.jpg -> file=apify_499899627413038407.jpg
+2025-09-30 17:00:12,683 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/98/bb/1a/98bb1ad9039210d6412718db87a504b6.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:00:12,803 | INFO | moodboard: [Image] download done file=apify_499899627413038407.jpg size=857x1024 bytes=190605 url=https://i.pinimg.com/originals/98/bb/1a/98bb1ad9039210d6412718db87a504b6.jpg -> /_cache/images/apify_499899627413038407.jpg
+2025-09-30 17:00:12,842 | INFO | moodboard: [Filter] drop apify pin_id=499899627413038407 reasons={'face': True}
+2025-09-30 17:00:12,843 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/19/6b/46/196b467082d00d6deef7f06c8ff06052.jpg -> file=apify_170433167143331270.jpg
+2025-09-30 17:00:12,901 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/19/6b/46/196b467082d00d6deef7f06c8ff06052.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:00:12,936 | INFO | moodboard: [Image] download done file=apify_170433167143331270.jpg size=682x1024 bytes=158108 url=https://i.pinimg.com/originals/19/6b/46/196b467082d00d6deef7f06c8ff06052.jpg -> /_cache/images/apify_170433167143331270.jpg
+2025-09-30 17:00:14,642 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/3a/01/b9/3a01b9a5109ac663515dc6ec51463bf9.png -> file=apify_319896379801888512.jpg
+2025-09-30 17:00:14,717 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/3a/01/b9/3a01b9a5109ac663515dc6ec51463bf9.png "HTTP/1.1 200 OK"
+2025-09-30 17:00:14,789 | INFO | moodboard: [Image] download done file=apify_319896379801888512.jpg size=573x1024 bytes=87167 url=https://i.pinimg.com/originals/3a/01/b9/3a01b9a5109ac663515dc6ec51463bf9.png -> /_cache/images/apify_319896379801888512.jpg
+2025-09-30 17:00:16,143 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/87/ef/98/87ef9864d80cb35c5c6e8bb5bd3240b3.jpg -> file=apify_15973773674553425.jpg
+2025-09-30 17:00:16,199 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/87/ef/98/87ef9864d80cb35c5c6e8bb5bd3240b3.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:00:16,252 | INFO | moodboard: [Image] download done file=apify_15973773674553425.jpg size=1024x1024 bytes=211298 url=https://i.pinimg.com/originals/87/ef/98/87ef9864d80cb35c5c6e8bb5bd3240b3.jpg -> /_cache/images/apify_15973773674553425.jpg
+2025-09-30 17:00:18,649 | INFO | moodboard: [FilterStats:apify] q='скандинавский минимализм, лобби с травертином, без людей и текста архитектура' total=9 ok=8 lowres=0 aspect=0 face=1 text=0
+2025-09-30 17:00:18,649 | INFO | moodboard: [Apify] parsed 8 cards for q='скандинавский минимализм, лобби с травертином, без людей и текста архитектура'
+2025-09-30 17:00:18,651 | INFO | moodboard: [Apify] got 8 cards for q='скандинавский минимализм, лобби с травертином, без людей и текста архитектура'
+2025-09-30 17:00:18,651 | INFO | moodboard: [Apify] enabled; actor=apify/web-scraper
+2025-09-30 17:00:18,651 | INFO | moodboard: [Apify] enabled; actor=apify/web-scraper
+2025-09-30 17:00:18,651 | INFO | moodboard: [Apify] call actor=apify/web-scraper q='скандинавский минимализм, лобби с травертином, без людей и текста интерьер' limit=60
+2025-09-30 17:01:40,293 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/18/80/83/1880838f983cf5e1c3a1af97b4dc0e26.png -> file=apify_49539664649926039.jpg
+2025-09-30 17:01:41,054 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/18/80/83/1880838f983cf5e1c3a1af97b4dc0e26.png "HTTP/1.1 200 OK"
+2025-09-30 17:01:41,271 | INFO | moodboard: [Image] download done file=apify_49539664649926039.jpg size=682x1024 bytes=140241 url=https://i.pinimg.com/originals/18/80/83/1880838f983cf5e1c3a1af97b4dc0e26.png -> /_cache/images/apify_49539664649926039.jpg
+2025-09-30 17:01:42,896 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/e7/96/a7/e796a77423fec153aa5940dac3eef750.jpg -> file=apify_184999497190100332.jpg
+2025-09-30 17:01:42,918 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/e7/96/a7/e796a77423fec153aa5940dac3eef750.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:01:43,032 | INFO | moodboard: [Image] download done file=apify_184999497190100332.jpg size=571x1024 bytes=146443 url=https://i.pinimg.com/originals/e7/96/a7/e796a77423fec153aa5940dac3eef750.jpg -> /_cache/images/apify_184999497190100332.jpg
+2025-09-30 17:01:44,386 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/c1/9c/f6/c19cf6808bdb16b8dec71a1fad8bcec4.jpg -> file=apify_181481059980647652.jpg
+2025-09-30 17:01:44,442 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/c1/9c/f6/c19cf6808bdb16b8dec71a1fad8bcec4.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:01:44,503 | INFO | moodboard: [Image] download done file=apify_181481059980647652.jpg size=576x1024 bytes=105910 url=https://i.pinimg.com/originals/c1/9c/f6/c19cf6808bdb16b8dec71a1fad8bcec4.jpg -> /_cache/images/apify_181481059980647652.jpg
+2025-09-30 17:01:45,846 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/2c/f5/cb/2cf5cb436b9690072f701190fdc64214.jpg -> file=apify_325736985569471524.jpg
+2025-09-30 17:01:46,008 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/2c/f5/cb/2cf5cb436b9690072f701190fdc64214.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:01:46,034 | INFO | moodboard: [Image] download done file=apify_325736985569471524.jpg size=819x1024 bytes=102404 url=https://i.pinimg.com/originals/2c/f5/cb/2cf5cb436b9690072f701190fdc64214.jpg -> /_cache/images/apify_325736985569471524.jpg
+2025-09-30 17:01:47,927 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/42/35/1b/42351b247f2651dabe71f1568a627417.jpg -> file=apify_912541943252845256.jpg
+2025-09-30 17:01:47,984 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/42/35/1b/42351b247f2651dabe71f1568a627417.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:01:48,013 | INFO | moodboard: [Image] download done file=apify_912541943252845256.jpg size=768x1024 bytes=115989 url=https://i.pinimg.com/originals/42/35/1b/42351b247f2651dabe71f1568a627417.jpg -> /_cache/images/apify_912541943252845256.jpg
+2025-09-30 17:01:49,750 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/3a/01/b9/3a01b9a5109ac663515dc6ec51463bf9.png -> file=apify_319896379801888512.jpg
+2025-09-30 17:01:49,774 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/3a/01/b9/3a01b9a5109ac663515dc6ec51463bf9.png "HTTP/1.1 200 OK"
+2025-09-30 17:01:49,906 | INFO | moodboard: [Image] download done file=apify_319896379801888512.jpg size=573x1024 bytes=87167 url=https://i.pinimg.com/originals/3a/01/b9/3a01b9a5109ac663515dc6ec51463bf9.png -> /_cache/images/apify_319896379801888512.jpg
+2025-09-30 17:01:51,267 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/65/9b/fd/659bfde253adbcd9507bf982f134f23c.png -> file=apify_19140367162328957.jpg
+2025-09-30 17:01:51,323 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/65/9b/fd/659bfde253adbcd9507bf982f134f23c.png "HTTP/1.1 200 OK"
+2025-09-30 17:01:51,391 | INFO | moodboard: [Image] download done file=apify_19140367162328957.jpg size=576x1024 bytes=144149 url=https://i.pinimg.com/originals/65/9b/fd/659bfde253adbcd9507bf982f134f23c.png -> /_cache/images/apify_19140367162328957.jpg
+2025-09-30 17:01:52,726 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/ea/5b/ba/ea5bba36b2e3740f9342b0aed72279d5.jpg -> file=apify_540361655315393074.jpg
+2025-09-30 17:01:52,783 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/ea/5b/ba/ea5bba36b2e3740f9342b0aed72279d5.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:01:52,848 | INFO | moodboard: [Image] download done file=apify_540361655315393074.jpg size=819x1024 bytes=131323 url=https://i.pinimg.com/originals/ea/5b/ba/ea5bba36b2e3740f9342b0aed72279d5.jpg -> /_cache/images/apify_540361655315393074.jpg
+2025-09-30 17:01:54,740 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/87/ef/98/87ef9864d80cb35c5c6e8bb5bd3240b3.jpg -> file=apify_15973773674553425.jpg
+2025-09-30 17:01:54,769 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/87/ef/98/87ef9864d80cb35c5c6e8bb5bd3240b3.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:01:54,811 | INFO | moodboard: [Image] download done file=apify_15973773674553425.jpg size=1024x1024 bytes=211298 url=https://i.pinimg.com/originals/87/ef/98/87ef9864d80cb35c5c6e8bb5bd3240b3.jpg -> /_cache/images/apify_15973773674553425.jpg
+2025-09-30 17:01:57,156 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/7c/ed/08/7ced087a8f1bdbd377fbada76a7a62f3.png -> file=apify_49539664649926038.jpg
+2025-09-30 17:01:57,963 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/7c/ed/08/7ced087a8f1bdbd377fbada76a7a62f3.png "HTTP/1.1 200 OK"
+2025-09-30 17:01:58,145 | INFO | moodboard: [Image] download done file=apify_49539664649926038.jpg size=682x1024 bytes=122164 url=https://i.pinimg.com/originals/7c/ed/08/7ced087a8f1bdbd377fbada76a7a62f3.png -> /_cache/images/apify_49539664649926038.jpg
+2025-09-30 17:01:59,788 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/f5/03/83/f503836ae03bd0f46acf0f9e500faf1c.png -> file=apify_518899188339888743.jpg
+2025-09-30 17:02:00,323 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/f5/03/83/f503836ae03bd0f46acf0f9e500faf1c.png "HTTP/1.1 200 OK"
+2025-09-30 17:02:00,389 | INFO | moodboard: [Image] download done file=apify_518899188339888743.jpg size=768x1024 bytes=139050 url=https://i.pinimg.com/originals/f5/03/83/f503836ae03bd0f46acf0f9e500faf1c.png -> /_cache/images/apify_518899188339888743.jpg
+2025-09-30 17:02:02,164 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/6d/e2/7b/6de27b9e464ebdb725594d30937b43d8.jpg -> file=apify_266134659225570324.jpg
+2025-09-30 17:02:02,198 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/6d/e2/7b/6de27b9e464ebdb725594d30937b43d8.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:02:02,225 | INFO | moodboard: [Image] download done file=apify_266134659225570324.jpg size=682x1024 bytes=93462 url=https://i.pinimg.com/originals/6d/e2/7b/6de27b9e464ebdb725594d30937b43d8.jpg -> /_cache/images/apify_266134659225570324.jpg
+2025-09-30 17:02:03,810 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/dc/ec/b4/dcecb41404d6c8b2a56a0db818680fcb.png -> file=apify_614178467971632781.jpg
+2025-09-30 17:02:03,873 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/dc/ec/b4/dcecb41404d6c8b2a56a0db818680fcb.png "HTTP/1.1 200 OK"
+2025-09-30 17:02:03,910 | INFO | moodboard: [Image] download done file=apify_614178467971632781.jpg size=640x1024 bytes=69083 url=https://i.pinimg.com/originals/dc/ec/b4/dcecb41404d6c8b2a56a0db818680fcb.png -> /_cache/images/apify_614178467971632781.jpg
+2025-09-30 17:02:05,368 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/80/38/5b/80385b2742a5ef962514dfa67b8ac13b.jpg -> file=apify_319896379801888529.jpg
+2025-09-30 17:02:05,390 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/80/38/5b/80385b2742a5ef962514dfa67b8ac13b.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:02:05,443 | INFO | moodboard: [Image] download done file=apify_319896379801888529.jpg size=1024x1024 bytes=122627 url=https://i.pinimg.com/originals/80/38/5b/80385b2742a5ef962514dfa67b8ac13b.jpg -> /_cache/images/apify_319896379801888529.jpg
+2025-09-30 17:02:07,707 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/12/9c/fb/129cfb09d5793634da5667d4972d5741.jpg -> file=apify_437834395045017014.jpg
+2025-09-30 17:02:08,043 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/12/9c/fb/129cfb09d5793634da5667d4972d5741.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:02:08,533 | INFO | moodboard: [Image] download done file=apify_437834395045017014.jpg size=675x1024 bytes=144986 url=https://i.pinimg.com/originals/12/9c/fb/129cfb09d5793634da5667d4972d5741.jpg -> /_cache/images/apify_437834395045017014.jpg
+2025-09-30 17:02:10,139 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/10/21/ac/1021ac00a507731573838f64cff5423c.jpg -> file=apify_1113022495427388280.jpg
+2025-09-30 17:02:10,190 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/10/21/ac/1021ac00a507731573838f64cff5423c.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:02:10,225 | INFO | moodboard: [Image] download done file=apify_1113022495427388280.jpg size=819x1024 bytes=130844 url=https://i.pinimg.com/originals/10/21/ac/1021ac00a507731573838f64cff5423c.jpg -> /_cache/images/apify_1113022495427388280.jpg
+2025-09-30 17:02:12,137 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/c1/06/7c/c1067c004d8f6727953945a33f6ab130.jpg -> file=apify_907264287464250229.jpg
+2025-09-30 17:02:12,677 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/c1/06/7c/c1067c004d8f6727953945a33f6ab130.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:02:13,375 | INFO | moodboard: [Image] download done file=apify_907264287464250229.jpg size=682x1024 bytes=117686 url=https://i.pinimg.com/originals/c1/06/7c/c1067c004d8f6727953945a33f6ab130.jpg -> /_cache/images/apify_907264287464250229.jpg
+2025-09-30 17:02:14,995 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/7c/c1/99/7cc199d2b720cbd4274a8a385555e09a.jpg -> file=apify_18718154695344662.jpg
+2025-09-30 17:02:15,046 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/7c/c1/99/7cc199d2b720cbd4274a8a385555e09a.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:02:15,067 | INFO | moodboard: [Image] download done file=apify_18718154695344662.jpg size=474x842 bytes=85760 url=https://i.pinimg.com/originals/7c/c1/99/7cc199d2b720cbd4274a8a385555e09a.jpg -> /_cache/images/apify_18718154695344662.jpg
+2025-09-30 17:02:15,069 | INFO | moodboard: [Filter] drop apify pin_id=18718154695344662 reasons={'lowres': True}
+2025-09-30 17:02:15,069 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/0b/33/d1/0b33d159561190a84d9f7a594b5e7292.jpg -> file=apify_530650768615992338.jpg
+2025-09-30 17:02:15,383 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/0b/33/d1/0b33d159561190a84d9f7a594b5e7292.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:02:15,681 | INFO | moodboard: [Image] download done file=apify_530650768615992338.jpg size=585x1024 bytes=169717 url=https://i.pinimg.com/originals/0b/33/d1/0b33d159561190a84d9f7a594b5e7292.jpg -> /_cache/images/apify_530650768615992338.jpg
+2025-09-30 17:02:17,080 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/37/93/f3/3793f3d8de2bb8577356dfb22ccbc4a9.jpg -> file=apify_681310249926884452.jpg
+2025-09-30 17:02:17,660 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/37/93/f3/3793f3d8de2bb8577356dfb22ccbc4a9.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:02:17,934 | INFO | moodboard: [Image] download done file=apify_681310249926884452.jpg size=768x1024 bytes=150199 url=https://i.pinimg.com/originals/37/93/f3/3793f3d8de2bb8577356dfb22ccbc4a9.jpg -> /_cache/images/apify_681310249926884452.jpg
+2025-09-30 17:02:19,740 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/28/84/99/28849910897fd397035fb9941d16e98a.jpg -> file=apify_894879388470992646.jpg
+2025-09-30 17:02:20,083 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/28/84/99/28849910897fd397035fb9941d16e98a.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:02:20,156 | INFO | moodboard: [Image] download done file=apify_894879388470992646.jpg size=682x1024 bytes=148715 url=https://i.pinimg.com/originals/28/84/99/28849910897fd397035fb9941d16e98a.jpg -> /_cache/images/apify_894879388470992646.jpg
+2025-09-30 17:02:21,820 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/47/ba/d3/47bad363fdffa804dc5353205a3907b8.webp -> file=apify_1000221398502553072.jpg
+2025-09-30 17:02:21,893 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/47/ba/d3/47bad363fdffa804dc5353205a3907b8.webp "HTTP/1.1 200 OK"
+2025-09-30 17:02:21,933 | INFO | moodboard: [Image] download done file=apify_1000221398502553072.jpg size=585x1024 bytes=106788 url=https://i.pinimg.com/originals/47/ba/d3/47bad363fdffa804dc5353205a3907b8.webp -> /_cache/images/apify_1000221398502553072.jpg
+2025-09-30 17:02:23,346 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/b1/64/52/b16452c9eee2043783f6a90d525db534.png -> file=apify_81698180737026187.jpg
+2025-09-30 17:02:23,952 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/b1/64/52/b16452c9eee2043783f6a90d525db534.png "HTTP/1.1 200 OK"
+2025-09-30 17:02:24,056 | INFO | moodboard: [Image] download done file=apify_81698180737026187.jpg size=576x1024 bytes=118551 url=https://i.pinimg.com/originals/b1/64/52/b16452c9eee2043783f6a90d525db534.png -> /_cache/images/apify_81698180737026187.jpg
+2025-09-30 17:02:24,091 | INFO | moodboard: [Filter] drop apify pin_id=81698180737026187 reasons={'face': True}
+2025-09-30 17:02:24,091 | INFO | moodboard: [FilterStats:apify] q='скандинавский минимализм, лобби с травертином, без людей и текста интерьер' total=23 ok=21 lowres=1 aspect=0 face=1 text=0
+2025-09-30 17:02:24,092 | INFO | moodboard: [Apify] parsed 21 cards for q='скандинавский минимализм, лобби с травертином, без людей и текста интерьер'
+2025-09-30 17:02:24,092 | INFO | moodboard: [Apify] got 21 cards for q='скандинавский минимализм, лобби с травертином, без людей и текста интерьер'
+2025-09-30 17:02:24,093 | INFO | moodboard: [Apify] enabled; actor=apify/web-scraper
+2025-09-30 17:02:24,096 | INFO | moodboard: [Apify] enabled; actor=apify/web-scraper
+2025-09-30 17:02:24,096 | INFO | moodboard: [Apify] call actor=apify/web-scraper q='скандинавский минимализм, лобби с травертином, без людей и текста материалы' limit=60
+2025-09-30 17:02:51,845 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/47/cf/08/47cf088a5ba112812c502a00008f5261.jpg -> file=apify_424745808622925746.jpg
+2025-09-30 17:02:51,969 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/47/cf/08/47cf088a5ba112812c502a00008f5261.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:02:52,013 | INFO | moodboard: [Image] download done file=apify_424745808622925746.jpg size=600x667 bytes=30065 url=https://i.pinimg.com/originals/47/cf/08/47cf088a5ba112812c502a00008f5261.jpg -> /_cache/images/apify_424745808622925746.jpg
+2025-09-30 17:02:52,940 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/21/f6/96/21f696a4a9444321f128921d59794d1e.jpg -> file=apify_111041947054846602.jpg
+2025-09-30 17:02:53,349 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/21/f6/96/21f696a4a9444321f128921d59794d1e.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:02:53,453 | INFO | moodboard: [Image] download done file=apify_111041947054846602.jpg size=682x1024 bytes=162021 url=https://i.pinimg.com/originals/21/f6/96/21f696a4a9444321f128921d59794d1e.jpg -> /_cache/images/apify_111041947054846602.jpg
+2025-09-30 17:02:55,062 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/e7/96/a7/e796a77423fec153aa5940dac3eef750.jpg -> file=apify_184999497190100332.jpg
+2025-09-30 17:02:55,163 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/e7/96/a7/e796a77423fec153aa5940dac3eef750.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:02:55,491 | INFO | moodboard: [Image] download done file=apify_184999497190100332.jpg size=571x1024 bytes=146443 url=https://i.pinimg.com/originals/e7/96/a7/e796a77423fec153aa5940dac3eef750.jpg -> /_cache/images/apify_184999497190100332.jpg
+2025-09-30 17:02:56,831 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/80/38/5b/80385b2742a5ef962514dfa67b8ac13b.jpg -> file=apify_319896379801888529.jpg
+2025-09-30 17:02:56,863 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/80/38/5b/80385b2742a5ef962514dfa67b8ac13b.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:02:56,937 | INFO | moodboard: [Image] download done file=apify_319896379801888529.jpg size=1024x1024 bytes=122627 url=https://i.pinimg.com/originals/80/38/5b/80385b2742a5ef962514dfa67b8ac13b.jpg -> /_cache/images/apify_319896379801888529.jpg
+2025-09-30 17:02:59,155 | INFO | moodboard: [FilterStats:apify] q='скандинавский минимализм, лобби с травертином, без людей и текста материалы' total=4 ok=4 lowres=0 aspect=0 face=0 text=0
+2025-09-30 17:02:59,155 | INFO | moodboard: [Apify] parsed 4 cards for q='скандинавский минимализм, лобби с травертином, без людей и текста материалы'
+2025-09-30 17:02:59,155 | INFO | moodboard: [Apify] got 4 cards for q='скандинавский минимализм, лобби с травертином, без людей и текста материалы'
+2025-09-30 17:02:59,155 | INFO | moodboard: [Apify] enabled; actor=apify/web-scraper
+2025-09-30 17:02:59,165 | INFO | moodboard: [Apify] enabled; actor=apify/web-scraper
+2025-09-30 17:02:59,165 | INFO | moodboard: [Apify] call actor=apify/web-scraper q='скандинавский минимализм, лобби с травертином, без людей и текста лобби' limit=60
+2025-09-30 17:03:33,494 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/f3/46/aa/f346aa1afa79b15b4f0276c23365ea46.png -> file=apify_964825920162973898.jpg
+2025-09-30 17:03:34,162 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/f3/46/aa/f346aa1afa79b15b4f0276c23365ea46.png "HTTP/1.1 200 OK"
+2025-09-30 17:03:34,328 | INFO | moodboard: [Image] download done file=apify_964825920162973898.jpg size=819x1024 bytes=154684 url=https://i.pinimg.com/originals/f3/46/aa/f346aa1afa79b15b4f0276c23365ea46.png -> /_cache/images/apify_964825920162973898.jpg
+2025-09-30 17:03:36,639 | INFO | moodboard: [Filter] drop apify pin_id=964825920162973898 reasons={'text': True}
+2025-09-30 17:03:36,641 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/55/45/67/55456709116cd22f0c0f8e14b870de62.jpg -> file=apify_96968198220489909.jpg
+2025-09-30 17:03:37,031 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/55/45/67/55456709116cd22f0c0f8e14b870de62.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:03:37,071 | INFO | moodboard: [Image] download done file=apify_96968198220489909.jpg size=1024x1024 bytes=203887 url=https://i.pinimg.com/originals/55/45/67/55456709116cd22f0c0f8e14b870de62.jpg -> /_cache/images/apify_96968198220489909.jpg
+2025-09-30 17:03:39,444 | INFO | moodboard: [Filter] drop apify pin_id=96968198220489909 reasons={'text': True}
+2025-09-30 17:03:39,444 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/56/b1/8a/56b18a42321d854b1a1a31d6b68c7b02.jpg -> file=apify_773352567302112452.jpg
+2025-09-30 17:03:39,507 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/56/b1/8a/56b18a42321d854b1a1a31d6b68c7b02.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:03:39,552 | INFO | moodboard: [Image] download done file=apify_773352567302112452.jpg size=1024x1024 bytes=198681 url=https://i.pinimg.com/originals/56/b1/8a/56b18a42321d854b1a1a31d6b68c7b02.jpg -> /_cache/images/apify_773352567302112452.jpg
+2025-09-30 17:03:41,900 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/e2/3e/5f/e23e5f2163a9a340de6a3089597e1155.png -> file=apify_842876886550049758.jpg
+2025-09-30 17:03:42,652 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/e2/3e/5f/e23e5f2163a9a340de6a3089597e1155.png "HTTP/1.1 200 OK"
+2025-09-30 17:03:42,733 | INFO | moodboard: [Image] download done file=apify_842876886550049758.jpg size=1024x585 bytes=125729 url=https://i.pinimg.com/originals/e2/3e/5f/e23e5f2163a9a340de6a3089597e1155.png -> /_cache/images/apify_842876886550049758.jpg
+2025-09-30 17:03:42,759 | INFO | moodboard: [Filter] drop apify pin_id=842876886550049758 reasons={'face': True}
+2025-09-30 17:03:42,760 | INFO | moodboard: [FilterStats:apify] q='скандинавский минимализм, лобби с травертином, без людей и текста лобби' total=4 ok=1 lowres=0 aspect=0 face=1 text=2
+2025-09-30 17:03:42,760 | INFO | moodboard: [Apify] parsed 1 cards for q='скандинавский минимализм, лобби с травертином, без людей и текста лобби'
+2025-09-30 17:03:42,760 | INFO | moodboard: [Apify] got 1 cards for q='скандинавский минимализм, лобби с травертином, без людей и текста лобби'
+2025-09-30 17:03:42,761 | INFO | moodboard: [Apify] enabled; actor=apify/web-scraper
+2025-09-30 17:03:42,765 | INFO | moodboard: [Apify] enabled; actor=apify/web-scraper
+2025-09-30 17:03:42,765 | INFO | moodboard: [Apify] call actor=apify/web-scraper q='скандинавский минимализм лобби с травертином без людей и текста' limit=60
+2025-09-30 17:04:14,044 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/65/9b/fd/659bfde253adbcd9507bf982f134f23c.png -> file=apify_19140367162328957.jpg
+2025-09-30 17:04:14,141 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/65/9b/fd/659bfde253adbcd9507bf982f134f23c.png "HTTP/1.1 200 OK"
+2025-09-30 17:04:14,288 | INFO | moodboard: [Image] download done file=apify_19140367162328957.jpg size=576x1024 bytes=144149 url=https://i.pinimg.com/originals/65/9b/fd/659bfde253adbcd9507bf982f134f23c.png -> /_cache/images/apify_19140367162328957.jpg
+2025-09-30 17:04:15,622 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/e7/96/a7/e796a77423fec153aa5940dac3eef750.jpg -> file=apify_184999497190100332.jpg
+2025-09-30 17:04:15,653 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/e7/96/a7/e796a77423fec153aa5940dac3eef750.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:04:15,743 | INFO | moodboard: [Image] download done file=apify_184999497190100332.jpg size=571x1024 bytes=146443 url=https://i.pinimg.com/originals/e7/96/a7/e796a77423fec153aa5940dac3eef750.jpg -> /_cache/images/apify_184999497190100332.jpg
+2025-09-30 17:04:17,085 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/80/38/5b/80385b2742a5ef962514dfa67b8ac13b.jpg -> file=apify_319896379801888529.jpg
+2025-09-30 17:04:17,115 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/80/38/5b/80385b2742a5ef962514dfa67b8ac13b.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:04:17,169 | INFO | moodboard: [Image] download done file=apify_319896379801888529.jpg size=1024x1024 bytes=122627 url=https://i.pinimg.com/originals/80/38/5b/80385b2742a5ef962514dfa67b8ac13b.jpg -> /_cache/images/apify_319896379801888529.jpg
+2025-09-30 17:04:19,454 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/3a/01/b9/3a01b9a5109ac663515dc6ec51463bf9.png -> file=apify_319896379801888512.jpg
+2025-09-30 17:04:19,488 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/3a/01/b9/3a01b9a5109ac663515dc6ec51463bf9.png "HTTP/1.1 200 OK"
+2025-09-30 17:04:19,564 | INFO | moodboard: [Image] download done file=apify_319896379801888512.jpg size=573x1024 bytes=87167 url=https://i.pinimg.com/originals/3a/01/b9/3a01b9a5109ac663515dc6ec51463bf9.png -> /_cache/images/apify_319896379801888512.jpg
+2025-09-30 17:04:20,916 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/21/f6/96/21f696a4a9444321f128921d59794d1e.jpg -> file=apify_111041947054846602.jpg
+2025-09-30 17:04:20,949 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/21/f6/96/21f696a4a9444321f128921d59794d1e.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:04:20,991 | INFO | moodboard: [Image] download done file=apify_111041947054846602.jpg size=682x1024 bytes=162021 url=https://i.pinimg.com/originals/21/f6/96/21f696a4a9444321f128921d59794d1e.jpg -> /_cache/images/apify_111041947054846602.jpg
+2025-09-30 17:04:22,597 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/f5/03/83/f503836ae03bd0f46acf0f9e500faf1c.png -> file=apify_518899188339888743.jpg
+2025-09-30 17:04:22,631 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/f5/03/83/f503836ae03bd0f46acf0f9e500faf1c.png "HTTP/1.1 200 OK"
+2025-09-30 17:04:22,654 | INFO | moodboard: [Image] download done file=apify_518899188339888743.jpg size=768x1024 bytes=139050 url=https://i.pinimg.com/originals/f5/03/83/f503836ae03bd0f46acf0f9e500faf1c.png -> /_cache/images/apify_518899188339888743.jpg
+2025-09-30 17:04:24,414 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/ea/5b/ba/ea5bba36b2e3740f9342b0aed72279d5.jpg -> file=apify_540361655315393074.jpg
+2025-09-30 17:04:24,447 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/ea/5b/ba/ea5bba36b2e3740f9342b0aed72279d5.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:04:24,510 | INFO | moodboard: [Image] download done file=apify_540361655315393074.jpg size=819x1024 bytes=131323 url=https://i.pinimg.com/originals/ea/5b/ba/ea5bba36b2e3740f9342b0aed72279d5.jpg -> /_cache/images/apify_540361655315393074.jpg
+2025-09-30 17:04:26,399 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/42/35/1b/42351b247f2651dabe71f1568a627417.jpg -> file=apify_912541943252845256.jpg
+2025-09-30 17:04:26,434 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/42/35/1b/42351b247f2651dabe71f1568a627417.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:04:26,461 | INFO | moodboard: [Image] download done file=apify_912541943252845256.jpg size=768x1024 bytes=115989 url=https://i.pinimg.com/originals/42/35/1b/42351b247f2651dabe71f1568a627417.jpg -> /_cache/images/apify_912541943252845256.jpg
+2025-09-30 17:04:28,227 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/0b/33/d1/0b33d159561190a84d9f7a594b5e7292.jpg -> file=apify_530650768615992338.jpg
+2025-09-30 17:04:28,260 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/0b/33/d1/0b33d159561190a84d9f7a594b5e7292.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:04:28,297 | INFO | moodboard: [Image] download done file=apify_530650768615992338.jpg size=585x1024 bytes=169717 url=https://i.pinimg.com/originals/0b/33/d1/0b33d159561190a84d9f7a594b5e7292.jpg -> /_cache/images/apify_530650768615992338.jpg
+2025-09-30 17:04:29,735 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/6d/e2/7b/6de27b9e464ebdb725594d30937b43d8.jpg -> file=apify_266134659225570324.jpg
+2025-09-30 17:04:29,764 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/6d/e2/7b/6de27b9e464ebdb725594d30937b43d8.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:04:29,788 | INFO | moodboard: [Image] download done file=apify_266134659225570324.jpg size=682x1024 bytes=93462 url=https://i.pinimg.com/originals/6d/e2/7b/6de27b9e464ebdb725594d30937b43d8.jpg -> /_cache/images/apify_266134659225570324.jpg
+2025-09-30 17:04:31,447 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/06/d2/82/06d28286a3f01508d18f256611ea9471.jpg -> file=apify_2603712278560743.jpg
+2025-09-30 17:04:31,512 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/06/d2/82/06d28286a3f01508d18f256611ea9471.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:04:31,520 | INFO | moodboard: [Image] download done file=apify_2603712278560743.jpg size=564x845 bytes=81461 url=https://i.pinimg.com/originals/06/d2/82/06d28286a3f01508d18f256611ea9471.jpg -> /_cache/images/apify_2603712278560743.jpg
+2025-09-30 17:04:32,668 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/12/9c/fb/129cfb09d5793634da5667d4972d5741.jpg -> file=apify_437834395045017014.jpg
+2025-09-30 17:04:32,696 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/12/9c/fb/129cfb09d5793634da5667d4972d5741.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:04:32,872 | INFO | moodboard: [Image] download done file=apify_437834395045017014.jpg size=675x1024 bytes=144986 url=https://i.pinimg.com/originals/12/9c/fb/129cfb09d5793634da5667d4972d5741.jpg -> /_cache/images/apify_437834395045017014.jpg
+2025-09-30 17:04:34,489 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/10/21/ac/1021ac00a507731573838f64cff5423c.jpg -> file=apify_1113022495427388280.jpg
+2025-09-30 17:04:34,522 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/10/21/ac/1021ac00a507731573838f64cff5423c.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:04:34,624 | INFO | moodboard: [Image] download done file=apify_1113022495427388280.jpg size=819x1024 bytes=130844 url=https://i.pinimg.com/originals/10/21/ac/1021ac00a507731573838f64cff5423c.jpg -> /_cache/images/apify_1113022495427388280.jpg
+2025-09-30 17:04:36,493 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/03/3a/f0/033af0f61a49f869e00fe29cf10b28dd.png -> file=apify_681169512426266438.jpg
+2025-09-30 17:04:37,165 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/03/3a/f0/033af0f61a49f869e00fe29cf10b28dd.png "HTTP/1.1 200 OK"
+2025-09-30 17:04:37,841 | INFO | moodboard: [Image] download done file=apify_681169512426266438.jpg size=573x1024 bytes=130815 url=https://i.pinimg.com/originals/03/3a/f0/033af0f61a49f869e00fe29cf10b28dd.png -> /_cache/images/apify_681169512426266438.jpg
+2025-09-30 17:04:37,869 | INFO | moodboard: [Filter] drop apify pin_id=681169512426266438 reasons={'face': True}
+2025-09-30 17:04:37,869 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/28/84/99/28849910897fd397035fb9941d16e98a.jpg -> file=apify_894879388470992646.jpg
+2025-09-30 17:04:37,908 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/28/84/99/28849910897fd397035fb9941d16e98a.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:04:38,035 | INFO | moodboard: [Image] download done file=apify_894879388470992646.jpg size=682x1024 bytes=148715 url=https://i.pinimg.com/originals/28/84/99/28849910897fd397035fb9941d16e98a.jpg -> /_cache/images/apify_894879388470992646.jpg
+2025-09-30 17:04:39,711 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/2c/dc/94/2cdc941d8e8b93a723531982a14401d2.jpg -> file=apify_82894449387581114.jpg
+2025-09-30 17:04:39,843 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/2c/dc/94/2cdc941d8e8b93a723531982a14401d2.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:04:39,904 | INFO | moodboard: [Image] download done file=apify_82894449387581114.jpg size=736x920 bytes=56051 url=https://i.pinimg.com/originals/2c/dc/94/2cdc941d8e8b93a723531982a14401d2.jpg -> /_cache/images/apify_82894449387581114.jpg
+2025-09-30 17:04:41,417 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/37/93/f3/3793f3d8de2bb8577356dfb22ccbc4a9.jpg -> file=apify_681310249926884452.jpg
+2025-09-30 17:04:41,455 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/37/93/f3/3793f3d8de2bb8577356dfb22ccbc4a9.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:04:42,034 | INFO | moodboard: [Image] download done file=apify_681310249926884452.jpg size=768x1024 bytes=150199 url=https://i.pinimg.com/originals/37/93/f3/3793f3d8de2bb8577356dfb22ccbc4a9.jpg -> /_cache/images/apify_681310249926884452.jpg
+2025-09-30 17:04:43,868 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/9d/63/1b/9d631b6e91a89e8b489cdc16559b11c0.jpg -> file=apify_27443878974211904.jpg
+2025-09-30 17:04:43,939 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/9d/63/1b/9d631b6e91a89e8b489cdc16559b11c0.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:04:43,983 | INFO | moodboard: [Image] download done file=apify_27443878974211904.jpg size=720x960 bytes=96257 url=https://i.pinimg.com/originals/9d/63/1b/9d631b6e91a89e8b489cdc16559b11c0.jpg -> /_cache/images/apify_27443878974211904.jpg
+2025-09-30 17:04:44,020 | INFO | moodboard: [Filter] drop apify pin_id=27443878974211904 reasons={'face': True}
+2025-09-30 17:04:44,021 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/01/30/e3/0130e37cfe5c96f895d1ad172385fd0c.jpg -> file=apify_560627853633320020.jpg
+2025-09-30 17:04:44,363 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/01/30/e3/0130e37cfe5c96f895d1ad172385fd0c.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:04:44,454 | INFO | moodboard: [Image] download done file=apify_560627853633320020.jpg size=585x1024 bytes=136424 url=https://i.pinimg.com/originals/01/30/e3/0130e37cfe5c96f895d1ad172385fd0c.jpg -> /_cache/images/apify_560627853633320020.jpg
+2025-09-30 17:04:45,832 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/b8/18/78/b818781434223a81a6f7f2fddddf9b46.jpg -> file=apify_92957179804597575.jpg
+2025-09-30 17:04:45,901 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/b8/18/78/b818781434223a81a6f7f2fddddf9b46.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:04:45,965 | INFO | moodboard: [Image] download done file=apify_92957179804597575.jpg size=731x1024 bytes=118179 url=https://i.pinimg.com/originals/b8/18/78/b818781434223a81a6f7f2fddddf9b46.jpg -> /_cache/images/apify_92957179804597575.jpg
+2025-09-30 17:04:45,993 | INFO | moodboard: [Filter] drop apify pin_id=92957179804597575 reasons={'face': True}
+2025-09-30 17:04:45,993 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/b1/64/52/b16452c9eee2043783f6a90d525db534.png -> file=apify_81698180737026187.jpg
+2025-09-30 17:04:46,024 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/b1/64/52/b16452c9eee2043783f6a90d525db534.png "HTTP/1.1 200 OK"
+2025-09-30 17:04:46,254 | INFO | moodboard: [Image] download done file=apify_81698180737026187.jpg size=576x1024 bytes=118551 url=https://i.pinimg.com/originals/b1/64/52/b16452c9eee2043783f6a90d525db534.png -> /_cache/images/apify_81698180737026187.jpg
+2025-09-30 17:04:46,297 | INFO | moodboard: [Filter] drop apify pin_id=81698180737026187 reasons={'face': True}
+2025-09-30 17:04:46,297 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/47/ba/d3/47bad363fdffa804dc5353205a3907b8.webp -> file=apify_1000221398502553072.jpg
+2025-09-30 17:04:46,352 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/47/ba/d3/47bad363fdffa804dc5353205a3907b8.webp "HTTP/1.1 200 OK"
+2025-09-30 17:04:46,388 | INFO | moodboard: [Image] download done file=apify_1000221398502553072.jpg size=585x1024 bytes=106788 url=https://i.pinimg.com/originals/47/ba/d3/47bad363fdffa804dc5353205a3907b8.webp -> /_cache/images/apify_1000221398502553072.jpg
+2025-09-30 17:04:47,766 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/2b/07/91/2b07919d6b274f2e26c4c69b22cc1868.png -> file=apify_234679830577889596.jpg
+2025-09-30 17:04:48,416 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/2b/07/91/2b07919d6b274f2e26c4c69b22cc1868.png "HTTP/1.1 200 OK"
+2025-09-30 17:04:48,924 | INFO | moodboard: [Image] download done file=apify_234679830577889596.jpg size=573x1024 bytes=129522 url=https://i.pinimg.com/originals/2b/07/91/2b07919d6b274f2e26c4c69b22cc1868.png -> /_cache/images/apify_234679830577889596.jpg
+2025-09-30 17:04:50,647 | INFO | moodboard: [Filter] drop apify pin_id=234679830577889596 reasons={'text': True}
+2025-09-30 17:04:50,647 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/37/9c/3e/379c3e94d509f39ea07602d9eaffeb26.jpg -> file=apify_691935930287577601.jpg
+2025-09-30 17:04:50,710 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/37/9c/3e/379c3e94d509f39ea07602d9eaffeb26.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:04:50,800 | INFO | moodboard: [Image] download done file=apify_691935930287577601.jpg size=675x1024 bytes=144153 url=https://i.pinimg.com/originals/37/9c/3e/379c3e94d509f39ea07602d9eaffeb26.jpg -> /_cache/images/apify_691935930287577601.jpg
+2025-09-30 17:04:52,380 | INFO | moodboard: [FilterStats:apify] q='скандинавский минимализм лобби с травертином без людей и текста' total=24 ok=19 lowres=0 aspect=0 face=4 text=1
+2025-09-30 17:04:52,380 | INFO | moodboard: [Apify] parsed 19 cards for q='скандинавский минимализм лобби с травертином без людей и текста'
+2025-09-30 17:04:52,380 | INFO | moodboard: [Apify] got 19 cards for q='скандинавский минимализм лобби с травертином без людей и текста'
+2025-09-30 17:04:52,380 | INFO | moodboard: [Apify] enabled; actor=apify/web-scraper
+2025-09-30 17:04:52,390 | INFO | moodboard: [Apify] enabled; actor=apify/web-scraper
+2025-09-30 17:04:52,390 | INFO | moodboard: [Apify] call actor=apify/web-scraper q='scandinavian minimalism lobby travertine' limit=60
+2025-09-30 17:05:18,642 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/62/39/a6/6239a6ce66e6a856179a434bc65798ce.jpg -> file=apify_296674694224688649.jpg
+2025-09-30 17:05:18,698 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/62/39/a6/6239a6ce66e6a856179a434bc65798ce.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:05:18,705 | INFO | moodboard: [Image] download done file=apify_296674694224688649.jpg size=600x847 bytes=40570 url=https://i.pinimg.com/originals/62/39/a6/6239a6ce66e6a856179a434bc65798ce.jpg -> /_cache/images/apify_296674694224688649.jpg
+2025-09-30 17:05:19,921 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/a2/fb/09/a2fb092ec9eb555a87aac2c4fbd96663.jpg -> file=apify_10836855346298443.jpg
+2025-09-30 17:05:19,937 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/a2/fb/09/a2fb092ec9eb555a87aac2c4fbd96663.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:05:19,996 | INFO | moodboard: [Image] download done file=apify_10836855346298443.jpg size=682x1024 bytes=108792 url=https://i.pinimg.com/originals/a2/fb/09/a2fb092ec9eb555a87aac2c4fbd96663.jpg -> /_cache/images/apify_10836855346298443.jpg
+2025-09-30 17:05:20,028 | INFO | moodboard: [Filter] drop apify pin_id=10836855346298443 reasons={'face': True}
+2025-09-30 17:05:20,028 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/33/32/9c/33329c2327f22ad8b97a06cc61042726.jpg -> file=apify_6473993211773279.jpg
+2025-09-30 17:05:20,049 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/33/32/9c/33329c2327f22ad8b97a06cc61042726.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:05:20,054 | INFO | moodboard: [Image] download done file=apify_6473993211773279.jpg size=350x635 bytes=37840 url=https://i.pinimg.com/originals/33/32/9c/33329c2327f22ad8b97a06cc61042726.jpg -> /_cache/images/apify_6473993211773279.jpg
+2025-09-30 17:05:20,055 | INFO | moodboard: [Filter] drop apify pin_id=6473993211773279 reasons={'lowres': True}
+2025-09-30 17:05:20,055 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/17/3b/43/173b437223ad912fe710febb029abf9a.png -> file=apify_2462974792843795.jpg
+2025-09-30 17:05:20,075 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/17/3b/43/173b437223ad912fe710febb029abf9a.png "HTTP/1.1 200 OK"
+2025-09-30 17:05:21,210 | INFO | moodboard: [Image] download done file=apify_2462974792843795.jpg size=843x1024 bytes=202424 url=https://i.pinimg.com/originals/17/3b/43/173b437223ad912fe710febb029abf9a.png -> /_cache/images/apify_2462974792843795.jpg
+2025-09-30 17:05:23,189 | INFO | moodboard: [FilterStats:apify] q='scandinavian minimalism lobby travertine' total=4 ok=2 lowres=1 aspect=0 face=1 text=0
+2025-09-30 17:05:23,190 | INFO | moodboard: [Apify] parsed 2 cards for q='scandinavian minimalism lobby travertine'
+2025-09-30 17:05:23,190 | INFO | moodboard: [Apify] got 2 cards for q='scandinavian minimalism lobby travertine'
+2025-09-30 17:05:23,190 | INFO | moodboard: [Apify] enabled; actor=apify/web-scraper
+2025-09-30 17:05:23,190 | INFO | moodboard: [Apify] enabled; actor=apify/web-scraper
+2025-09-30 17:05:23,190 | INFO | moodboard: [Apify] call actor=apify/web-scraper q='stone cladding travertine lobby' limit=60
+2025-09-30 17:06:01,538 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/7d/c0/07/7dc0078face82503d9424dc8294f73b8.jpg -> file=apify_2462974786116471.jpg
+2025-09-30 17:06:01,684 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/7d/c0/07/7dc0078face82503d9424dc8294f73b8.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:06:01,692 | INFO | moodboard: [Image] download done file=apify_2462974786116471.jpg size=350x635 bytes=37900 url=https://i.pinimg.com/originals/7d/c0/07/7dc0078face82503d9424dc8294f73b8.jpg -> /_cache/images/apify_2462974786116471.jpg
+2025-09-30 17:06:01,693 | INFO | moodboard: [Filter] drop apify pin_id=2462974786116471 reasons={'lowres': True}
+2025-09-30 17:06:01,694 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/f6/e5/ac/f6e5ac2fda3a7262f76c403878d8c68e.jpg -> file=apify_29343835061606959.jpg
+2025-09-30 17:06:02,213 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/f6/e5/ac/f6e5ac2fda3a7262f76c403878d8c68e.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:06:02,295 | INFO | moodboard: [Image] download done file=apify_29343835061606959.jpg size=641x1024 bytes=109851 url=https://i.pinimg.com/originals/f6/e5/ac/f6e5ac2fda3a7262f76c403878d8c68e.jpg -> /_cache/images/apify_29343835061606959.jpg
+2025-09-30 17:06:03,837 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/cd/24/40/cd244061acb901cd8cc2011a0154c220.jpg -> file=apify_412853490869395598.jpg
+2025-09-30 17:06:04,163 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/cd/24/40/cd244061acb901cd8cc2011a0154c220.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:06:04,173 | INFO | moodboard: [Image] download done file=apify_412853490869395598.jpg size=495x700 bytes=65912 url=https://i.pinimg.com/originals/cd/24/40/cd244061acb901cd8cc2011a0154c220.jpg -> /_cache/images/apify_412853490869395598.jpg
+2025-09-30 17:06:04,177 | INFO | moodboard: [Filter] drop apify pin_id=412853490869395598 reasons={'lowres': True}
+2025-09-30 17:06:04,178 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/b8/66/56/b866567021b35f7a27704dbb3fcf6037.png -> file=apify_313844667802527900.jpg
+2025-09-30 17:06:04,595 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/b8/66/56/b866567021b35f7a27704dbb3fcf6037.png "HTTP/1.1 200 OK"
+2025-09-30 17:06:04,718 | INFO | moodboard: [Image] download done file=apify_313844667802527900.jpg size=660x1024 bytes=171390 url=https://i.pinimg.com/originals/b8/66/56/b866567021b35f7a27704dbb3fcf6037.png -> /_cache/images/apify_313844667802527900.jpg
+2025-09-30 17:06:04,748 | INFO | moodboard: [Filter] drop apify pin_id=313844667802527900 reasons={'face': True}
+2025-09-30 17:06:04,748 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/87/6e/c5/876ec50561205189ec1823d467210c94.jpg -> file=apify_563018698500727.jpg
+2025-09-30 17:06:04,808 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/87/6e/c5/876ec50561205189ec1823d467210c94.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:06:04,855 | INFO | moodboard: [Image] download done file=apify_563018698500727.jpg size=874x1024 bytes=191405 url=https://i.pinimg.com/originals/87/6e/c5/876ec50561205189ec1823d467210c94.jpg -> /_cache/images/apify_563018698500727.jpg
+2025-09-30 17:06:06,947 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/e1/0f/c3/e10fc323597aa63fac7f3367cc44270d.jpg -> file=apify_313070611582150694.jpg
+2025-09-30 17:06:07,468 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/e1/0f/c3/e10fc323597aa63fac7f3367cc44270d.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:06:07,629 | INFO | moodboard: [Image] download done file=apify_313070611582150694.jpg size=768x1024 bytes=243486 url=https://i.pinimg.com/originals/e1/0f/c3/e10fc323597aa63fac7f3367cc44270d.jpg -> /_cache/images/apify_313070611582150694.jpg
+2025-09-30 17:06:09,450 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/8f/01/7c/8f017ccfc6227d1942fd0ad747548d2b.jpg -> file=apify_1337074889526004.jpg
+2025-09-30 17:06:09,480 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/8f/01/7c/8f017ccfc6227d1942fd0ad747548d2b.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:06:09,492 | INFO | moodboard: [Image] download done file=apify_1337074889526004.jpg size=640x800 bytes=114720 url=https://i.pinimg.com/originals/8f/01/7c/8f017ccfc6227d1942fd0ad747548d2b.jpg -> /_cache/images/apify_1337074889526004.jpg
+2025-09-30 17:06:10,727 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/76/bb/dd/76bbdd4dc7b84d03e05e6e077c491431.png -> file=apify_24769866695987339.jpg
+2025-09-30 17:06:10,770 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/76/bb/dd/76bbdd4dc7b84d03e05e6e077c491431.png "HTTP/1.1 200 OK"
+2025-09-30 17:06:10,884 | INFO | moodboard: [Image] download done file=apify_24769866695987339.jpg size=473x1024 bytes=74100 url=https://i.pinimg.com/originals/76/bb/dd/76bbdd4dc7b84d03e05e6e077c491431.png -> /_cache/images/apify_24769866695987339.jpg
+2025-09-30 17:06:10,884 | INFO | moodboard: [Filter] drop apify pin_id=24769866695987339 reasons={'lowres': True}
+2025-09-30 17:06:10,884 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/videos/thumbnails/originals/ab/10/48/ab1048e0f1c855ed9e6485a49c9a42f2.0000000.jpg -> file=apify_696861742365342407.jpg
+2025-09-30 17:06:10,948 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/videos/thumbnails/originals/ab/10/48/ab1048e0f1c855ed9e6485a49c9a42f2.0000000.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:06:10,980 | INFO | moodboard: [Image] download done file=apify_696861742365342407.jpg size=576x1024 bytes=159337 url=https://i.pinimg.com/videos/thumbnails/originals/ab/10/48/ab1048e0f1c855ed9e6485a49c9a42f2.0000000.jpg -> /_cache/images/apify_696861742365342407.jpg
+2025-09-30 17:06:12,457 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/14/69/32/146932bb0aa781795805d6902b01546e.jpg -> file=apify_426505027236483747.jpg
+2025-09-30 17:06:12,874 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/14/69/32/146932bb0aa781795805d6902b01546e.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:06:13,025 | INFO | moodboard: [Image] download done file=apify_426505027236483747.jpg size=682x1024 bytes=145080 url=https://i.pinimg.com/originals/14/69/32/146932bb0aa781795805d6902b01546e.jpg -> /_cache/images/apify_426505027236483747.jpg
+2025-09-30 17:06:14,730 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/49/66/64/496664f84b51520ab7dca62aa16d32a4.jpg -> file=apify_1125968696230774.jpg
+2025-09-30 17:06:14,800 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/49/66/64/496664f84b51520ab7dca62aa16d32a4.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:06:14,817 | INFO | moodboard: [Image] download done file=apify_1125968696230774.jpg size=800x800 bytes=157556 url=https://i.pinimg.com/originals/49/66/64/496664f84b51520ab7dca62aa16d32a4.jpg -> /_cache/images/apify_1125968696230774.jpg
+2025-09-30 17:06:16,339 | INFO | moodboard: [Image] download start url=https://i.pinimg.com/originals/a9/95/12/a995121b34501a063052571dc6df68dd.jpg -> file=apify_7318418139726099.jpg
+2025-09-30 17:06:16,380 | INFO | httpx: HTTP Request: GET https://i.pinimg.com/originals/a9/95/12/a995121b34501a063052571dc6df68dd.jpg "HTTP/1.1 200 OK"
+2025-09-30 17:06:16,431 | INFO | moodboard: [Image] download done file=apify_7318418139726099.jpg size=828x1024 bytes=198514 url=https://i.pinimg.com/originals/a9/95/12/a995121b34501a063052571dc6df68dd.jpg -> /_cache/images/apify_7318418139726099.jpg
+2025-09-30 17:06:18,434 | INFO | moodboard: [FilterStats:apify] q='stone cladding travertine lobby' total=12 ok=8 lowres=3 aspect=0 face=1 text=0
+2025-09-30 17:06:18,434 | INFO | moodboard: [Apify] parsed 8 cards for q='stone cladding travertine lobby'
+2025-09-30 17:06:18,434 | INFO | moodboard: [Apify] got 8 cards for q='stone cladding travertine lobby'
+2025-09-30 17:06:18,434 | WARNING | moodboard: [CLIP] embedding/similarity failed: cannot import name '_load_openclip' from 'backend.pipeline.embeds' (C:\Users\ivan.kopytin\Downloads\mbcheck-check\mbcheck-check\backend\pipeline\embeds.py)
+2025-09-30 17:07:21,793 | INFO | moodboard: CLIP flags: USE_CLIP=True, MODEL=ViT-B-32, DEVICE=cpu
+2025-09-30 17:07:21,794 | INFO | moodboard: Startup: PINTEREST_BASE_URL=https://api-sandbox.pinterest.com
+2025-09-30 17:07:21,794 | INFO | moodboard: Apify enabled? True | actor=apify/web-scraper | token=SET
+2025-09-30 17:48:30,910 | INFO | moodboard: CLIP flags: USE_CLIP=True, MODEL=ViT-B-32, DEVICE=cpu
+2025-09-30 17:48:30,911 | INFO | moodboard: Startup: PINTEREST_BASE_URL=https://api-sandbox.pinterest.com
+2025-09-30 17:48:30,911 | INFO | moodboard: Apify enabled? True | actor=apify/web-scraper | token=SET
+2025-09-30 17:49:07,315 | INFO | moodboard: [EncodingCheck] q0='скандинавский минимализм, лобби с травертином, без людей и текста' | bytes=b'\xd1\x81\xd0\xba\xd0\xb0\xd0\xbd\xd0\xb4\xd0\xb8\xd0\xbd\xd0\xb0\xd0\xb2\xd1\x81\xd0\xba\xd0\xb8\xd0\xb9 \xd0\xbc\xd0\xb8\xd0\xbd\xd0\xb8\xd0\xbc\xd0\xb0\xd0\xbb\xd0\xb8\xd0\xb7\xd0\xbc, \xd0\xbb\xd0\xbe\xd0\xb1\xd0\xb1\xd0\xb8 \xd1\x81 \xd1\x82\xd1\x80\xd0\xb0\xd0\xb2\xd0\xb5\xd1\x80\xd1\x82\xd0\xb8\xd0\xbd\xd0\xbe\xd0\xbc, \xd0\xb1\xd0\xb5\xd0\xb7 \xd0\xbb\xd1\x8e\xd0\xb4\xd0\xb5\xd0\xb9 \xd0\xb8 \xd1\x82\xd0\xb5\xd0\xba\xd1\x81\xd1\x82\xd0\xb0' | codepoints=[1089, 1082, 1072, 1085, 1076, 1080, 1085, 1072, 1074, 1089, 1082, 1080, 1081, 32, 1084, 1080, 1085, 1080, 1084, 1072, 1083, 1080, 1079, 1084, 44, 32, 1083, 1086, 1073, 1073, 1080, 32, 1089, 32, 1090, 1088, 1072, 1074, 1077, 1088]
+2025-09-30 17:49:07,315 | INFO | moodboard: [Pinterest] (serial=True) queries=['скандинавский минимализм, лобби с травертином, без людей и текста', 'скандинавский минимализм, лобби с травертином, без людей и текста архитектура', 'скандинавский минимализм, лобби с травертином, без людей и текста интерьер', 'скандинавский минимализм, лобби с травертином, без людей и текста материалы', 'скандинавский минимализм, лобби с травертином, без людей и текста лобби', 'скандинавский минимализм лобби с травертином без людей и текста', 'scandinavian minimalism lobby travertine', 'stone cladding travertine lobby'] per_query=60 need=216
+2025-09-30 17:49:07,327 | INFO | moodboard: [Cache] loaded 41 cards key=7e92053f43b0488e5f213e4823761c9c8c94eb08
+2025-09-30 17:49:07,330 | WARNING | moodboard: [CLIP] embedding/similarity failed: cannot import name '_load_openclip' from 'backend.pipeline.embeds' (C:\Users\ivan.kopytin\Downloads\mbcheck-check\mbcheck-check\backend\pipeline\embeds.py)
+2025-09-30 17:49:24,604 | INFO | moodboard: CLIP flags: USE_CLIP=True, MODEL=ViT-B-32, DEVICE=cpu
+2025-09-30 17:49:24,605 | INFO | moodboard: Startup: PINTEREST_BASE_URL=https://api-sandbox.pinterest.com
+2025-09-30 17:49:24,605 | INFO | moodboard: Apify enabled? True | actor=apify/web-scraper | token=SET
+2025-09-30 17:49:25,066 | INFO | moodboard: [EncodingCheck] q0='скандинавский минимализм, лобби с травертином, без людей и текста' | bytes=b'\xd1\x81\xd0\xba\xd0\xb0\xd0\xbd\xd0\xb4\xd0\xb8\xd0\xbd\xd0\xb0\xd0\xb2\xd1\x81\xd0\xba\xd0\xb8\xd0\xb9 \xd0\xbc\xd0\xb8\xd0\xbd\xd0\xb8\xd0\xbc\xd0\xb0\xd0\xbb\xd0\xb8\xd0\xb7\xd0\xbc, \xd0\xbb\xd0\xbe\xd0\xb1\xd0\xb1\xd0\xb8 \xd1\x81 \xd1\x82\xd1\x80\xd0\xb0\xd0\xb2\xd0\xb5\xd1\x80\xd1\x82\xd0\xb8\xd0\xbd\xd0\xbe\xd0\xbc, \xd0\xb1\xd0\xb5\xd0\xb7 \xd0\xbb\xd1\x8e\xd0\xb4\xd0\xb5\xd0\xb9 \xd0\xb8 \xd1\x82\xd0\xb5\xd0\xba\xd1\x81\xd1\x82\xd0\xb0' | codepoints=[1089, 1082, 1072, 1085, 1076, 1080, 1085, 1072, 1074, 1089, 1082, 1080, 1081, 32, 1084, 1080, 1085, 1080, 1084, 1072, 1083, 1080, 1079, 1084, 44, 32, 1083, 1086, 1073, 1073, 1080, 32, 1089, 32, 1090, 1088, 1072, 1074, 1077, 1088]
+2025-09-30 17:49:25,066 | INFO | moodboard: [Pinterest] (serial=True) queries=['скандинавский минимализм, лобби с травертином, без людей и текста', 'скандинавский минимализм, лобби с травертином, без людей и текста архитектура', 'скандинавский минимализм, лобби с травертином, без людей и текста интерьер', 'скандинавский минимализм, лобби с травертином, без людей и текста материалы', 'скандинавский минимализм, лобби с травертином, без людей и текста лобби', 'скандинавский минимализм лобби с травертином без людей и текста', 'scandinavian minimalism lobby travertine', 'stone cladding travertine lobby'] per_query=60 need=216
+2025-09-30 17:49:25,066 | INFO | moodboard: [Cache] loaded 41 cards key=7e92053f43b0488e5f213e4823761c9c8c94eb08
+2025-09-30 17:49:25,077 | WARNING | moodboard: [CLIP] embedding/similarity failed: cannot import name '_load_openclip' from 'backend.pipeline.embeds' (C:\Users\ivan.kopytin\Downloads\mbcheck-check\mbcheck-check\backend\pipeline\embeds.py)
+2025-09-30 17:53:24,462 | INFO | moodboard: CLIP flags: USE_CLIP=True, MODEL=ViT-B-32, DEVICE=cpu
+2025-09-30 17:53:24,462 | INFO | moodboard: Startup: PINTEREST_BASE_URL=https://api-sandbox.pinterest.com
+2025-09-30 17:53:24,462 | INFO | moodboard: Apify enabled? True | actor=apify/web-scraper | token=SET
+2025-09-30 17:53:24,491 | INFO | moodboard: [EncodingCheck] q0='скандинавский минимализм, лобби с травертином, без людей и текста' | bytes=b'\xd1\x81\xd0\xba\xd0\xb0\xd0\xbd\xd0\xb4\xd0\xb8\xd0\xbd\xd0\xb0\xd0\xb2\xd1\x81\xd0\xba\xd0\xb8\xd0\xb9 \xd0\xbc\xd0\xb8\xd0\xbd\xd0\xb8\xd0\xbc\xd0\xb0\xd0\xbb\xd0\xb8\xd0\xb7\xd0\xbc, \xd0\xbb\xd0\xbe\xd0\xb1\xd0\xb1\xd0\xb8 \xd1\x81 \xd1\x82\xd1\x80\xd0\xb0\xd0\xb2\xd0\xb5\xd1\x80\xd1\x82\xd0\xb8\xd0\xbd\xd0\xbe\xd0\xbc, \xd0\xb1\xd0\xb5\xd0\xb7 \xd0\xbb\xd1\x8e\xd0\xb4\xd0\xb5\xd0\xb9 \xd0\xb8 \xd1\x82\xd0\xb5\xd0\xba\xd1\x81\xd1\x82\xd0\xb0' | codepoints=[1089, 1082, 1072, 1085, 1076, 1080, 1085, 1072, 1074, 1089, 1082, 1080, 1081, 32, 1084, 1080, 1085, 1080, 1084, 1072, 1083, 1080, 1079, 1084, 44, 32, 1083, 1086, 1073, 1073, 1080, 32, 1089, 32, 1090, 1088, 1072, 1074, 1077, 1088]
+2025-09-30 17:53:24,492 | INFO | moodboard: [Pinterest] (serial=True) queries=['скандинавский минимализм, лобби с травертином, без людей и текста', 'скандинавский минимализм, лобби с травертином, без людей и текста архитектура', 'скандинавский минимализм, лобби с травертином, без людей и текста интерьер', 'скандинавский минимализм, лобби с травертином, без людей и текста материалы', 'скандинавский минимализм, лобби с травертином, без людей и текста лобби', 'скандинавский минимализм лобби с травертином без людей и текста', 'scandinavian minimalism lobby travertine', 'stone cladding travertine lobby'] per_query=60 need=216
+2025-09-30 17:53:24,493 | INFO | moodboard: [Cache] loaded 41 cards key=7e92053f43b0488e5f213e4823761c9c8c94eb08
+2025-09-30 17:53:24,495 | WARNING | moodboard: [CLIP] embedding/similarity failed: cannot import name '_load_openclip' from 'backend.pipeline.embeds' (C:\Users\ivan.kopytin\Downloads\mbcheck-check\mbcheck-check\backend\pipeline\embeds.py)
+2025-09-30 18:00:07,032 | INFO | moodboard: CLIP flags: USE_CLIP=True, MODEL=ViT-B-32, DEVICE=cpu
+2025-09-30 18:00:07,032 | INFO | moodboard: Startup: PINTEREST_BASE_URL=https://api-sandbox.pinterest.com
+2025-09-30 18:00:07,033 | INFO | moodboard: Apify enabled? True | actor=apify/web-scraper | token=SET
+2025-09-30 18:00:15,091 | INFO | moodboard: [EncodingCheck] q0='скандинавский минимализм, лобби с травертином, без людей и текста' | bytes=b'\xd1\x81\xd0\xba\xd0\xb0\xd0\xbd\xd0\xb4\xd0\xb8\xd0\xbd\xd0\xb0\xd0\xb2\xd1\x81\xd0\xba\xd0\xb8\xd0\xb9 \xd0\xbc\xd0\xb8\xd0\xbd\xd0\xb8\xd0\xbc\xd0\xb0\xd0\xbb\xd0\xb8\xd0\xb7\xd0\xbc, \xd0\xbb\xd0\xbe\xd0\xb1\xd0\xb1\xd0\xb8 \xd1\x81 \xd1\x82\xd1\x80\xd0\xb0\xd0\xb2\xd0\xb5\xd1\x80\xd1\x82\xd0\xb8\xd0\xbd\xd0\xbe\xd0\xbc, \xd0\xb1\xd0\xb5\xd0\xb7 \xd0\xbb\xd1\x8e\xd0\xb4\xd0\xb5\xd0\xb9 \xd0\xb8 \xd1\x82\xd0\xb5\xd0\xba\xd1\x81\xd1\x82\xd0\xb0' | codepoints=[1089, 1082, 1072, 1085, 1076, 1080, 1085, 1072, 1074, 1089, 1082, 1080, 1081, 32, 1084, 1080, 1085, 1080, 1084, 1072, 1083, 1080, 1079, 1084, 44, 32, 1083, 1086, 1073, 1073, 1080, 32, 1089, 32, 1090, 1088, 1072, 1074, 1077, 1088]
+2025-09-30 18:00:15,091 | INFO | moodboard: [Pinterest] (serial=True) queries=['скандинавский минимализм, лобби с травертином, без людей и текста', 'скандинавский минимализм, лобби с травертином, без людей и текста архитектура', 'скандинавский минимализм, лобби с травертином, без людей и текста интерьер', 'скандинавский минимализм, лобби с травертином, без людей и текста материалы', 'скандинавский минимализм, лобби с травертином, без людей и текста лобби', 'скандинавский минимализм лобби с травертином без людей и текста', 'scandinavian minimalism lobby travertine', 'stone cladding travertine lobby'] per_query=60 need=216
+2025-09-30 18:00:15,097 | INFO | moodboard: [Cache] loaded 41 cards key=7e92053f43b0488e5f213e4823761c9c8c94eb08
+2025-09-30 18:00:15,099 | INFO | root: Loading pretrained ViT-B-32 from OpenAI.
+2025-09-30 18:00:57,235 | WARNING | moodboard: [CLIP] embedding/similarity failed: <urlopen error [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера>
+2025-09-30 18:02:34,198 | INFO | moodboard: [EncodingCheck] q0='скандинавский минимализм, лобби с травертином, без людей и текста' | bytes=b'\xd1\x81\xd0\xba\xd0\xb0\xd0\xbd\xd0\xb4\xd0\xb8\xd0\xbd\xd0\xb0\xd0\xb2\xd1\x81\xd0\xba\xd0\xb8\xd0\xb9 \xd0\xbc\xd0\xb8\xd0\xbd\xd0\xb8\xd0\xbc\xd0\xb0\xd0\xbb\xd0\xb8\xd0\xb7\xd0\xbc, \xd0\xbb\xd0\xbe\xd0\xb1\xd0\xb1\xd0\xb8 \xd1\x81 \xd1\x82\xd1\x80\xd0\xb0\xd0\xb2\xd0\xb5\xd1\x80\xd1\x82\xd0\xb8\xd0\xbd\xd0\xbe\xd0\xbc, \xd0\xb1\xd0\xb5\xd0\xb7 \xd0\xbb\xd1\x8e\xd0\xb4\xd0\xb5\xd0\xb9 \xd0\xb8 \xd1\x82\xd0\xb5\xd0\xba\xd1\x81\xd1\x82\xd0\xb0' | codepoints=[1089, 1082, 1072, 1085, 1076, 1080, 1085, 1072, 1074, 1089, 1082, 1080, 1081, 32, 1084, 1080, 1085, 1080, 1084, 1072, 1083, 1080, 1079, 1084, 44, 32, 1083, 1086, 1073, 1073, 1080, 32, 1089, 32, 1090, 1088, 1072, 1074, 1077, 1088]
+2025-09-30 18:02:34,198 | INFO | moodboard: [Pinterest] (serial=True) queries=['скандинавский минимализм, лобби с травертином, без людей и текста', 'скандинавский минимализм, лобби с травертином, без людей и текста архитектура', 'скандинавский минимализм, лобби с травертином, без людей и текста интерьер', 'скандинавский минимализм, лобби с травертином, без людей и текста материалы', 'скандинавский минимализм, лобби с травертином, без людей и текста лобби', 'скандинавский минимализм лобби с травертином без людей и текста', 'scandinavian minimalism lobby travertine', 'stone cladding travertine lobby'] per_query=60 need=216
+2025-09-30 18:02:34,199 | INFO | moodboard: [Cache] loaded 41 cards key=7e92053f43b0488e5f213e4823761c9c8c94eb08
+2025-09-30 18:02:34,201 | INFO | root: Loading pretrained ViT-B-32 from OpenAI.
+2025-09-30 18:03:16,320 | WARNING | moodboard: [CLIP] embedding/similarity failed: <urlopen error [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера>
+2025-09-30 18:37:14,863 | INFO | moodboard: CLIP flags: USE_CLIP=True, MODEL=ViT-B-32, DEVICE=cpu
+2025-09-30 18:37:14,864 | INFO | moodboard: Startup: PINTEREST_BASE_URL=https://api-sandbox.pinterest.com
+2025-09-30 18:37:14,864 | INFO | moodboard: Apify enabled? True | actor=apify/web-scraper | token=SET
+2025-09-30 18:37:28,159 | INFO | moodboard: CLIP flags: USE_CLIP=True, MODEL=ViT-B-32, DEVICE=cpu
+2025-09-30 18:37:28,159 | INFO | moodboard: Startup: PINTEREST_BASE_URL=https://api-sandbox.pinterest.com
+2025-09-30 18:37:28,159 | INFO | moodboard: Apify enabled? True | actor=apify/web-scraper | token=SET
+2025-09-30 18:37:45,647 | INFO | moodboard: CLIP flags: USE_CLIP=True, MODEL=ViT-B-32, DEVICE=cpu
+2025-09-30 18:37:45,647 | INFO | moodboard: Startup: PINTEREST_BASE_URL=https://api-sandbox.pinterest.com
+2025-09-30 18:37:45,648 | INFO | moodboard: Apify enabled? True | actor=apify/web-scraper | token=SET

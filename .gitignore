@@ -1,0 +1,15 @@
+# Python venv
+.venv/
+venv/
+env/
+ENV/
+
+# Полезно заодно
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Файл с секретами (НЕ папка venv)
+.env
