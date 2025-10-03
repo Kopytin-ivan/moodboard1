@@ -4,17 +4,28 @@ import numpy as np
 from typing import List, Sequence
 from PIL import Image
 from imagehash import phash as _phash
+from backend.config import settings
 
 # ---- TOTAL SCORE (пока без эстетики; оставим хук под неё) ----
-def total_score(sim_to_prompt: float, aesth_0_10: float | None = None, penalties: dict | None = None) -> float:
-    alpha, beta = 1.0, 0.0   # пока учитываем только CLIP-сходство; эстетика = позже
+def total_score(sim_to_prompt: float,
+                aesthetic: float | None = None,
+                penalties: dict | None = None) -> float:
+    """
+    sim_to_prompt: 0..1
+    aesthetic:    0..10
+    penalties:    мягкие флаги ('maybe_text', 'maybe_logo', 'maybe_face')
+    """
+    a = getattr(settings, "SCORE_ALPHA", 0.6)
+    b = getattr(settings, "SCORE_BETA", 0.4)
+    aesth = 5.0 if (aesthetic is None) else float(aesthetic)
+
     penalty = 0.0
     if penalties:
-        if penalties.get("maybe_text"): penalty += 0.10
-        if penalties.get("maybe_face"): penalty += 0.20
-        if penalties.get("maybe_logo"): penalty += 0.10
-    aesth_term = (aesth_0_10 or 0.0) / 10.0
-    return alpha*sim_to_prompt + beta*aesth_term - penalty
+        if penalties.get("maybe_text"): penalty += 0.15
+        if penalties.get("maybe_logo"): penalty += 0.15
+        if penalties.get("maybe_face"): penalty += 0.30
+
+    return a * float(sim_to_prompt) + b * (aesth / 10.0) - penalty
 
 # ---- Dedup: pHash + близость эмбеддингов ----
 def deduplicate(paths: Sequence[str], embeds: np.ndarray, max_phash_dist: int = 8, emb_sim_thr: float = 0.92) -> List[int]:

@@ -5,9 +5,9 @@ Pillow>=10.3
 apify-client>=1.7
 pydantic>=2.7
 pydantic-settings>=2.2
-numpy
+numpy==1.26.4
 imagehash
-scikit-learn
+scikit-learn==1.4.2
 opencv-python
 python-dotenv
 tenacity
@@ -16,8 +16,10 @@ open-clip-torch==2.24.0
 pytesseract
 onnxruntime-gpu ; platform_system == "Windows"
 onnxruntime     ; platform_system != "Windows"
-
+pyarrow==14.0.2
 # OCR detectors
-
+pandas==2.2.2
 easyocr==1.7.1       
 orjson>=3.10.7
+paddlepaddle==3.0.0
+paddleocr>=2.7.0.3

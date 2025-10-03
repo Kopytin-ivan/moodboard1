@@ -86,9 +86,9 @@ def _cache_save(key: str, cards: list[PinCard]) -> None:
 # -----------------------------------------------------------------------------#
 
 async def _http_json(client: httpx.AsyncClient, url: str, params: Dict | None = None) -> Tuple[int, Dict | None, str]:
+    """Аккуратный GET JSON без подмены аргументов. Возвращает (status, data, text_snippet)."""
     log.info(f"[Pinterest] -> GET {url} params={params}")
-    params = {"q": query, "limit": limit}  # query — str, БЕЗ .encode() и .quote()
-    r = await client.get(base, params=params, headers={"Accept": "application/json"})    
+    r = await client.get(url, params=params, headers={"Accept": "application/json"})
     status = r.status_code
     text_snippet = r.text[:200] if status >= 400 else ""
     try:
@@ -97,6 +97,7 @@ async def _http_json(client: httpx.AsyncClient, url: str, params: Dict | None = 
         data = None
     log.info(f"[Pinterest] <- {status} {url}")
     return status, data, text_snippet
+
 
 def _pick_preview_url(images: Dict) -> Optional[str]:
     if not isinstance(images, dict):
@@ -356,83 +357,77 @@ def _extract_pin_fields(pin: Dict) -> Optional[Dict]:
             "title": title, "alt_text": alt_text}
 
 async def _search_pins_try(client: httpx.AsyncClient, q: str, limit: int) -> List[PinCard]:
+    """
+    Sandbox Pinterest часто даёт 400/404. Делаем ОДИН запрос с валидными ключами
+    и при статусе >=400 сразу уходим без перебора параметров.
+    """
     url = f"{BASE_URL}/v5/search/pins"
+    params = {"query": q, "page_size": min(50, limit)}
+
+    stats = _init_stats()
     cards: List[PinCard] = []
     seen = set()
-    bookmark = None
-    fetched = 0
-    stats = _init_stats()
 
-    while fetched < limit:
-        ok_call = False
-        for mk in PARAM_SETS:
-            p = mk(q, limit)
-            if bookmark:
-                p["bookmark"] = bookmark
-            status, data, snippet = await _http_json(client, url, p)
-            if status == 200 and isinstance(data, dict):
-                ok_call = True
-                items, bookmark = _parse_items(data)
-                for it in items:
-                    fields = _extract_pin_fields(it)
-                    if not fields:
-                        continue
-                    if fields["id"] in seen:
-                        continue
-                    seen.add(fields["id"])
-                    dest = settings.CACHE_DIR / "images" / f"pin_{fields['id']}_1024.jpg"
-                    try:
-                        local_uri = await _download_preview(client, fields["preview_url"], dest)
-                    except Exception as ex:
-                        log.warning(f"[Pinterest] preview download failed {fields['preview_url']}: {ex}")
-                        continue
+    status, data, snippet = await _http_json(client, url, params)
+    if status >= 400 or not isinstance(data, dict):
+        log.info(f"[Pinterest] search_pins: {status} -> soft fallback (no param retries in sandbox)")
+        _log_stats("search_pins", q, stats)
+        return []
 
-                    ok, reasons = pass_all_filters(str(dest))
-                    _apply_filter_stats(stats, ok, reasons)
-                    if not ok:
-                        log.info(f"[Filter] drop pin_id={fields['id']} reasons={reasons}")
-                        continue
+    items, _ = _parse_items(data)
+    if not items:
+        _log_stats("search_pins", q, stats)
+        return []
 
-                    cards.append(PinCard(
-                        id=fields["id"], preview_url=local_uri, source_url=fields["source_url"],
-                        title=fields["title"] or None, alt_text=fields["alt_text"] or None
-                    ))
-                    fetched += 1
-                    if fetched >= limit:
-                        _log_stats("search_pins", q, stats)
-                        return cards
-                if not bookmark or fetched >= limit:
-                    _log_stats("search_pins", q, stats)
-                    return cards
-                break
-            elif status in (400, 404):
-                continue
-            elif status in (401, 403):
-                log.warning("[Pinterest] search/pins auth/forbidden")
-                _log_stats("search_pins", q, stats)
-                return []
-        if not ok_call:
-            _log_stats("search_pins", q, stats)
-            return cards
+    for it in items:
+        fields = _extract_pin_fields(it)
+        if not fields:
+            continue
+        if fields["id"] in seen:
+            continue
+        seen.add(fields["id"])
+
+        dest = settings.CACHE_DIR / "images" / f"pin_{fields['id']}_1024.jpg"
+        try:
+            local_uri = await _download_preview(client, fields["preview_url"], dest)
+        except Exception as ex:
+            log.warning(f"[Pinterest] preview download failed {fields['preview_url']}: {ex}")
+            continue
+
+        ok, reasons = pass_all_filters(str(dest))
+        _apply_filter_stats(stats, ok, reasons)
+        if not ok:
+            log.info(f"[Filter] drop pin_id={fields['id']} reasons={reasons}")
+            continue
+
+        cards.append(PinCard(
+            id=fields["id"],
+            preview_url=local_uri,
+            source_url=fields["source_url"],
+            title=fields["title"] or None,
+            alt_text=fields["alt_text"] or None
+        ))
+        if len(cards) >= limit:
+            break
 
     _log_stats("search_pins", q, stats)
     return cards
 
 async def _search_boards(client: httpx.AsyncClient, q: str, max_boards: int = 10) -> List[Dict]:
+    """
+    Для sandbox /v5/boards/search делаем один вызов и при 4xx сразу выходим.
+    """
     url = f"{BASE_URL}/v5/boards/search"
-    for mk in PARAM_SETS:
-        params = mk(q, max_boards)
-        status, data, snippet = await _http_json(client, url, params)
-        if status == 200 and isinstance(data, dict):
-            items, _ = _parse_items(data)
-            if items:
-                return items[:max_boards]
-        elif status in (400, 404):
-            continue
-        elif status in (401, 403):
-            log.warning("[Pinterest] boards/search auth/forbidden")
-            return []
-    return []
+    params = {"query": q, "page_size": min(50, max_boards)}
+
+    status, data, snippet = await _http_json(client, url, params)
+    if status >= 400 or not isinstance(data, dict):
+        log.info(f"[Pinterest] boards_search: {status} -> soft fallback (skip sandbox boards)")
+        return []
+
+    items, _ = _parse_items(data)
+    return (items or [])[:max_boards]
+
 
 async def _board_pins(client: httpx.AsyncClient, board_id: str, limit: int) -> List[Dict]:
     url = f"{BASE_URL}/v5/boards/{board_id}/pins"

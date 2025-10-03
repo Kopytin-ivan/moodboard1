@@ -5,7 +5,7 @@ import logging
 from pathlib import Path
 from typing import Optional
 from pydantic_settings import BaseSettings, SettingsConfigDict
-
+BASE_DIR = Path(__file__).resolve().parent
 # =========================
 # Константы фильтров (вне Pydantic-модели!)
 # =========================
@@ -72,11 +72,22 @@ class Settings(BaseSettings):
     # ---- Serial Pinterest switch ----
     PINTEREST_SERIAL: bool = True
 
+    # === AESTHETIC / SCORING ===
+    SCORE_ALPHA: float = 0.6       # вес семантики CLIP
+    SCORE_BETA: float = 0.4        # вес эстетики LAION
+    AESTHETIC_MIN: float = 5.5    # жёсткий отсев (включишь 5.5 позже при желании)
+
+    # Папка с моделями (в т.ч. aesthetic/*.npy)
+    MODELS_DIR: str = str((BASE_DIR / "models").resolve())
+
+
     model_config = SettingsConfigDict(
         env_file=".env",
         env_file_encoding="utf-8",
         extra="ignore",
     )
+
+
 
 # Глобальный инстанс настроек
 settings = Settings()
@@ -89,3 +100,4 @@ settings.CACHE_DIR = Path(str(settings.CACHE_DIR)).expanduser()
 logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(levelname)s | %(name)s: %(message)s")
 log = logging.getLogger("moodboard")
 log.info(f"[Settings] PINTEREST_BASE_URL={settings.PINTEREST_BASE_URL}")
+
